@@ -12,7 +12,7 @@ concurrency:
 jobs:
   build-and-test:
     name: Build and test
-    # VoxFlowAir runs on macOS 26 but is built with Xcode 27 (macOS 27 SDK).
+    # VoxFlowAir builds with Xcode 26 or later; macOS 27 SDK features are compiled in when available.
     runs-on: macos-26
     timeout-minutes: 30
     env:
@@ -23,8 +23,7 @@ jobs:
       - name: Select the newest Xcode
         run: |
           ls -d /Applications/Xcode*.app
-          XCODE="$(ls -d /Applications/Xcode_27*.app 2>/dev/null | sort -V | tail -1)"
-          [ -n "$XCODE" ] || { echo "::error::Xcode 27 is not installed on this runner image"; exit 1; }
+          XCODE="$(ls -d /Applications/Xcode_*.app | sort -V | tail -1)"
           sudo xcode-select -s "$XCODE"
 
       - name: Show toolchain

@@ -328,20 +328,8 @@ struct ProcessingOrderList: View {
             if chain.isEmpty {
                 Text(g.mainChain().isEmpty ? "The virtual output is not fed by the input." : "No effects on the main chain.")
                     .font(.system(size: 11)).foregroundStyle(VF.text3).padding(.vertical, 4)
-            } else if #available(macOS 27, *), !locked {
-                VStack(alignment: .leading, spacing: 2) {
-                    ForEach(items) { item in row(item.id, index: chain.firstIndex(of: item.id) ?? 0, count: chain.count, locked: locked) }
-                        .reorderable()
-                }
-                .reorderContainer(for: Item.self) { diff in
-                    guard let src = diff.sources.first else { return }
-                    switch diff.destination.position {
-                    case .before(let before): if before != src { app.engine.moveInMainChain(src, before: before) }
-                    case .end: app.engine.moveInMainChain(src, before: nil)
-                    }
-                }
             } else {
-                ForEach(items) { item in row(item.id, index: chain.firstIndex(of: item.id) ?? 0, count: chain.count, locked: locked) }
+                chainRows(items, chain: chain, locked: locked)
             }
             fixedRow("Virtual output", "dot.radiowaves.left.and.right")
             let off = g.nodes.filter { !$0.kind.isUnique && !chain.contains($0.id) }.count
@@ -350,6 +338,30 @@ struct ProcessingOrderList: View {
                     .font(.system(size: 10)).foregroundStyle(VF.text3).padding(.top, 4)
             }
         }
+    }
+
+    /// Rows of the main chain, reorderable by drag on macOS 27 (built with the macOS 27 SDK).
+    @ViewBuilder
+    func chainRows(_ items: [Item], chain: [UUID], locked: Bool) -> some View {
+        #if compiler(>=6.4)
+        if #available(macOS 27, *), !locked {
+            VStack(alignment: .leading, spacing: 2) {
+                ForEach(items) { item in row(item.id, index: chain.firstIndex(of: item.id) ?? 0, count: chain.count, locked: locked) }
+                    .reorderable()
+            }
+            .reorderContainer(for: Item.self) { diff in
+                guard let src = diff.sources.first else { return }
+                switch diff.destination.position {
+                case .before(let before): if before != src { app.engine.moveInMainChain(src, before: before) }
+                case .end: app.engine.moveInMainChain(src, before: nil)
+                }
+            }
+        } else {
+            ForEach(items) { item in row(item.id, index: chain.firstIndex(of: item.id) ?? 0, count: chain.count, locked: locked) }
+        }
+        #else
+        ForEach(items) { item in row(item.id, index: chain.firstIndex(of: item.id) ?? 0, count: chain.count, locked: locked) }
+        #endif
     }
 
     func fixedRow(_ title: LocalizedStringKey, _ symbol: String) -> some View {

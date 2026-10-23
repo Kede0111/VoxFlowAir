@@ -83,6 +83,13 @@ struct MainToolbar: ToolbarContent {
     @State private var showMonitorPopover = false
 
     var body: some ToolbarContent {
+        presetItems
+        ToolbarSpacer(.flexible)
+        controlItems
+    }
+
+    // Split in two builders: older SDKs accept at most 10 items per builder.
+    @ToolbarContentBuilder private var presetItems: some ToolbarContent {
         let e = app.engine
         ToolbarItem(placement: .navigation) {
             PresetMenu(showNewPreset: $showNewPreset, newPresetName: $newPresetName, saveAsMode: $saveAsMode)
@@ -107,9 +114,10 @@ struct MainToolbar: ToolbarContent {
             .foregroundStyle(e.isDirty ? VF.warn : VF.text3)
             .disabled(!e.isDirty).help(e.isDirty ? "Save preset (⌘S)" : "Preset saved")
         }
+    }
 
-        ToolbarSpacer(.flexible)
-
+    @ToolbarContentBuilder private var controlItems: some ToolbarContent {
+        let e = app.engine
         ToolbarItem {
             EngineStatusPill()
         }
