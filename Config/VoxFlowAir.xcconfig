@@ -1,0 +1,28 @@
+// VoxFlowAir build configuration shared by every target.
+//
+// To build with your own identifiers or signing identity, copy
+// Config/Local.xcconfig.example to Config/Local.xcconfig (ignored by git) and
+// override any of the values below.
+
+// Base bundle identifier. The app uses it as is; the virtual audio driver,
+// its device UIDs, the private aggregate device and the log subsystem derive
+// from it (for example "<id>.driver").
+VOXFLOWAIR_BUNDLE_ID = be.jackfrom.voxflowair
+
+// Signing. "-" signs ad hoc (no Apple Developer account needed): the app runs
+// on the Mac that built it. Set your team and a "Developer ID Application"
+// identity to distribute builds to other Macs.
+VOXFLOWAIR_DEVELOPMENT_TEAM =
+VOXFLOWAIR_CODE_SIGN_IDENTITY = -
+VOXFLOWAIR_CODE_SIGN_STYLE = Manual
+
+MARKETING_VERSION = 1.0.0
+CURRENT_PROJECT_VERSION = 1
+
+#include? "Local.xcconfig"
+
+DEVELOPMENT_TEAM = $(VOXFLOWAIR_DEVELOPMENT_TEAM)
+CODE_SIGN_IDENTITY = $(VOXFLOWAIR_CODE_SIGN_IDENTITY)
+CODE_SIGN_STYLE = $(VOXFLOWAIR_CODE_SIGN_STYLE)
+// Identifiers compiled into the driver (Driver/Shared/VoxFlowAirDriverShared.h).
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) VF_BUNDLE_ID=\"$(VOXFLOWAIR_BUNDLE_ID)\" VF_VERSION=\"$(MARKETING_VERSION)\"

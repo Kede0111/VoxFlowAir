@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>en</string>
+	<key>CFBundleExecutable</key><string>VoxFlowAir</string>
+	<key>CFBundleIconFile</key><string>AppIcon</string>
+	<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>VoxFlowAirBundleID</key><string>$(VOXFLOWAIR_BUNDLE_ID)</string>
+	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+	<key>CFBundleName</key><string>VoxFlowAir</string>
+	<key>CFBundleDisplayName</key><string>VoxFlowAir</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key><string>26.0</string>
+	<key>LSApplicationCategoryType</key><string>public.app-category.music</string>
+	<key>NSHighResolutionCapable</key><true/>
+	<key>NSMicrophoneUsageDescription</key><string>VoxFlowAir processes your microphone in real time before sending it to OBS, FaceTime and your other apps.</string>
+	<key>NSHumanReadableCopyright</key><string>© 2026 Quentin Descotte. Created by Quentin Descotte.</string>
+	<!-- Links shown in Settings › About. Leave a value empty to hide its button. -->
+	<key>VoxFlowAirRepositoryURL</key><string>https://github.com/Kede0111/VoxFlowAir</string>
+	<key>VoxFlowAirDonationURL</key><string>https://www.paypal.com/donate/?hosted_button_id=F774WNKUD7NTU</string>
+</dict>
+</plist>

@@ -1,0 +1,244 @@
+{
+  "createdAt": "2026-10-20T18:42:54Z",
+  "formatVersion": 1,
+  "graph": {
+    "connections": [
+      {
+        "from": "912D618C-8F5A-4336-830C-825BB94DDD74",
+        "id": "66A345B2-2B2C-4B12-BD8E-D3AC0C1E4EA0",
+        "to": "3AFE7E7A-A1BF-4EB1-BDB7-0B6DE83BAF0C"
+      },
+      {
+        "from": "3AFE7E7A-A1BF-4EB1-BDB7-0B6DE83BAF0C",
+        "id": "63C64CAE-94CD-438D-8CFA-34FFF71532FF",
+        "to": "6EF37A3B-069A-4BBC-A1B2-E1C6BA733736"
+      },
+      {
+        "from": "6EF37A3B-069A-4BBC-A1B2-E1C6BA733736",
+        "id": "2AE9869F-8EED-4DE1-AF91-140D85C2ABE0",
+        "to": "71CDFFF3-C9FF-436B-B182-2F1A54A0EE27"
+      },
+      {
+        "from": "71CDFFF3-C9FF-436B-B182-2F1A54A0EE27",
+        "id": "0C2EB469-C270-4BD6-96C8-86AFFA0F0F05",
+        "to": "36649C65-FB48-484E-900C-5D986DED693D"
+      },
+      {
+        "from": "36649C65-FB48-484E-900C-5D986DED693D",
+        "id": "9FAE0F89-995C-4640-8ED5-C4DE55791B8E",
+        "to": "A583ABC6-DDD0-421A-8F2B-69EB03C4AADC"
+      },
+      {
+        "from": "A583ABC6-DDD0-421A-8F2B-69EB03C4AADC",
+        "id": "1FB61D57-CD97-42CB-BA47-C1E6E442196B",
+        "to": "2327B6F9-FC47-4FCB-A70C-CD6236DA1F45"
+      },
+      {
+        "from": "2327B6F9-FC47-4FCB-A70C-CD6236DA1F45",
+        "id": "E579F679-F948-47E4-8B02-3B9D750A7F21",
+        "to": "06950F66-2E3F-470B-B7D2-09E4A501D664"
+      },
+      {
+        "from": "06950F66-2E3F-470B-B7D2-09E4A501D664",
+        "id": "C6929283-37E4-4CB5-8380-518110BB5E9C",
+        "to": "FFBBFE2E-CCE2-46C1-96EF-B2A72ADDDD43"
+      },
+      {
+        "from": "FFBBFE2E-CCE2-46C1-96EF-B2A72ADDDD43",
+        "id": "5792E836-AAB1-47C8-AECA-D3A51008604B",
+        "to": "FEAEC4DD-C7E7-498A-9D82-C2C4523A5809"
+      }
+    ],
+    "groups": [],
+    "nodes": [
+      {
+        "bypassed": false,
+        "id": "912D618C-8F5A-4336-830C-825BB94DDD74",
+        "kind": "input",
+        "parameters": {},
+        "position": {
+          "x": 60,
+          "y": 60
+        },
+        "title": "Mic input"
+      },
+      {
+        "bypassed": false,
+        "id": "3AFE7E7A-A1BF-4EB1-BDB7-0B6DE83BAF0C",
+        "kind": "gain",
+        "parameters": {
+          "gain": 0
+        },
+        "position": {
+          "x": 328,
+          "y": 60
+        },
+        "title": "Input gain"
+      },
+      {
+        "bypassed": false,
+        "id": "6EF37A3B-069A-4BBC-A1B2-E1C6BA733736",
+        "kind": "audioUnit",
+        "loadMode": "inProcess",
+        "parameters": {},
+        "plugin": {
+          "manufacturer": 1634758764,
+          "manufacturerName": "Apple",
+          "name": "AUNBandEQ",
+          "subType": 1851942257,
+          "type": 1635083896,
+          "version": 65536
+        },
+        "position": {
+          "x": 596,
+          "y": 60
+        },
+        "title": "EQ 1"
+      },
+      {
+        "bypassed": false,
+        "id": "71CDFFF3-C9FF-436B-B182-2F1A54A0EE27",
+        "kind": "audioUnit",
+        "loadMode": "inProcess",
+        "parameters": {},
+        "plugin": {
+          "manufacturer": 1634758764,
+          "manufacturerName": "Apple",
+          "name": "AUNBandEQ",
+          "subType": 1851942257,
+          "type": 1635083896,
+          "version": 65536
+        },
+        "position": {
+          "x": 864,
+          "y": 60
+        },
+        "title": "EQ 2"
+      },
+      {
+        "bypassed": false,
+        "id": "36649C65-FB48-484E-900C-5D986DED693D",
+        "kind": "audioUnit",
+        "loadMode": "inProcess",
+        "parameters": {},
+        "plugin": {
+          "manufacturer": 1634758764,
+          "manufacturerName": "Apple",
+          "name": "AUNBandEQ",
+          "subType": 1851942257,
+          "type": 1635083896,
+          "version": 65536
+        },
+        "position": {
+          "x": 864,
+          "y": 260
+        },
+        "title": "EQ 3"
+      },
+      {
+        "bypassed": false,
+        "id": "A583ABC6-DDD0-421A-8F2B-69EB03C4AADC",
+        "kind": "audioUnit",
+        "loadMode": "inProcess",
+        "parameters": {},
+        "plugin": {
+          "manufacturer": 1634758764,
+          "manufacturerName": "Apple",
+          "name": "AUNBandEQ",
+          "subType": 1851942257,
+          "type": 1635083896,
+          "version": 65536
+        },
+        "position": {
+          "x": 596,
+          "y": 260
+        },
+        "title": "EQ 4"
+      },
+      {
+        "bypassed": false,
+        "id": "2327B6F9-FC47-4FCB-A70C-CD6236DA1F45",
+        "kind": "audioUnit",
+        "loadMode": "inProcess",
+        "parameters": {},
+        "plugin": {
+          "manufacturer": 1634758764,
+          "manufacturerName": "Apple",
+          "name": "AUNBandEQ",
+          "subType": 1851942257,
+          "type": 1635083896,
+          "version": 65536
+        },
+        "position": {
+          "x": 328,
+          "y": 260
+        },
+        "title": "EQ 5"
+      },
+      {
+        "bypassed": false,
+        "id": "06950F66-2E3F-470B-B7D2-09E4A501D664",
+        "kind": "gain",
+        "parameters": {
+          "gain": 13.5
+        },
+        "position": {
+          "x": 60,
+          "y": 260
+        },
+        "title": "Output gain"
+      },
+      {
+        "bypassed": false,
+        "id": "FFBBFE2E-CCE2-46C1-96EF-B2A72ADDDD43",
+        "kind": "audioUnit",
+        "loadMode": "inProcess",
+        "parameters": {},
+        "plugin": {
+          "manufacturer": 1634758764,
+          "manufacturerName": "Apple",
+          "name": "AUNBandEQ",
+          "subType": 1851942257,
+          "type": 1635083896,
+          "version": 65536
+        },
+        "position": {
+          "x": 60,
+          "y": 460
+        },
+        "title": "EQ 6"
+      },
+      {
+        "bypassed": false,
+        "id": "FEAEC4DD-C7E7-498A-9D82-C2C4523A5809",
+        "kind": "output",
+        "parameters": {},
+        "position": {
+          "x": 328,
+          "y": 460
+        },
+        "title": "Virtual output"
+      }
+    ],
+    "viewport": {
+      "offsetX": 0,
+      "offsetY": 0,
+      "zoom": 1
+    }
+  },
+  "id": "00000000-0000-4000-8000-000000000001",
+  "isFavorite": false,
+  "modifiedAt": "2026-10-20T18:51:07Z",
+  "name": "Fixture chain (format v1)",
+  "notes": "Test fixture: a format-1 preset with a multi-node chain.",
+  "routing": {
+    "bufferFrames": 256,
+    "inputChannels": [
+      0,
+      1
+    ],
+    "inputGainDB": 0,
+    "virtualGainDB": 0
+  },
+  "writer": "VoxFlowAir"
+}

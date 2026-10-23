@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    name: Build and test
+    # VoxFlowAir targets macOS 26 and needs an Xcode with the macOS 26 SDK or later.
+    runs-on: macos-26
+    timeout-minutes: 30
+    env:
+      DERIVED: ${{ github.workspace }}/build/DerivedData
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show toolchain
+        run: |
+          sw_vers
+          xcodebuild -version
+
+      - name: Build the driver and its tests
+        run: xcodebuild -project VoxFlowAir.xcodeproj -scheme VoxFlowAirDriver -configuration Debug -derivedDataPath "$DERIVED" build
+
+      - name: Build the app
+        run: xcodebuild -project VoxFlowAir.xcodeproj -scheme VoxFlowAir -configuration Debug -derivedDataPath "$DERIVED" build
+
+      - name: Build the developer tool
+        run: xcodebuild -project VoxFlowAir.xcodeproj -scheme VoxFlowAirTool -configuration Debug -derivedDataPath "$DERIVED" build
+
+      - name: Engine tests
+        # Hardware tests only run with VOXFLOWAIR_HW=1, so no microphone or audio device is needed here.
+        run: xcodebuild -project VoxFlowAir.xcodeproj -scheme VoxFlowAir -configuration Debug -derivedDataPath "$DERIVED" test
+
+      - name: Driver tests (without installing the driver)
+        run: |
+          P="$DERIVED/Build/Products/Debug"
+          "$P/VoxFlowAirDriverTests" "$P/VoxFlowAirDriver.driver"

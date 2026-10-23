@@ -1,0 +1,1194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C553B1DEEE4BD4A39E9F2E /* VoxFlowAirCore.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 36936A1610A4AE99D746014C;
+		};
+		420E3416068930EB5A8BE6A6 /* VoxFlowAirCore.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 36936A1610A4AE99D746014C;
+		};
+		77F3028A80BDF48A0B4231C1 /* VoxFlowAirCore.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 36936A1610A4AE99D746014C;
+		};
+		9324040093815867CFD73B70 /* VoxFlowAirDriver.driver in Embed Driver */ = {
+			isa = PBXBuildFile;
+			fileRef = 32A7E3910BCFCB6EE4E4D77F;
+		};
+		9F2161F028A137064D8CBEC0 /* VFObjC.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 6802974CE72D08C552B494F6;
+		};
+		B55B95B45570C2627DEC1665 /* VFObjC.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 6802974CE72D08C552B494F6;
+		};
+		F5CD40231D5E6D00BB1DB020 /* VFObjC.framework in Frameworks */ = {
+			isa = PBXBuildFile;
+			fileRef = 6802974CE72D08C552B494F6;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2350BDDD63943E64D845D285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = C7CC8E3939806C8B27815ABF;
+			remoteInfo = VFObjC;
+		};
+		33173B84803551AB082393D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = C7CC8E3939806C8B27815ABF;
+			remoteInfo = VFObjC;
+		};
+		59A74EC6DE0D7B4CDE8D395A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = A8FF8E3525768884221B65C0;
+			remoteInfo = VoxFlowAirCore;
+		};
+		BE8BA61904665B8E40FFAADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = C7CC8E3939806C8B27815ABF;
+			remoteInfo = VFObjC;
+		};
+		CD44AA6155408F69B356203B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = B7C783A83280A7C3E7D56844;
+			remoteInfo = VoxFlowAirDriver;
+		};
+		E64C63C1CF9E653C4004534F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = A8FF8E3525768884221B65C0;
+			remoteInfo = VoxFlowAirCore;
+		};
+		F47F440065B54554F422C3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = A8FF8E3525768884221B65C0;
+			remoteInfo = VoxFlowAirCore;
+		};
+		FD489D9DC8D8F60B3A5AD8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595;
+			proxyType = 1;
+			remoteGlobalIDString = C7CC8E3939806C8B27815ABF;
+			remoteInfo = VFObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34433C5173870C713769E8C0 /* Embed Driver */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Driver;
+			dstSubfolderSpec = 7;
+			files = (
+				9324040093815867CFD73B70,
+			);
+			name = "Embed Driver";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32A7E3910BCFCB6EE4E4D77F /* VoxFlowAirDriver.driver */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = VoxFlowAirDriver.driver;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36936A1610A4AE99D746014C /* VoxFlowAirCore.framework */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			path = VoxFlowAirCore.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		610680E70418F722D2BDD5F3 /* VoxFlowAirDriverTests */ = {
+			isa = PBXFileReference;
+			explicitFileType = compiled.mach-o.executable;
+			includeInIndex = 0;
+			path = VoxFlowAirDriverTests;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6520C694200FC3BD36A50969 /* VoxFlowAirCoreTests.xctest */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = VoxFlowAirCoreTests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6802974CE72D08C552B494F6 /* VFObjC.framework */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			path = VFObjC.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7C865073C735A3C2712AB9E3 /* VoxFlowAir.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = VoxFlowAir.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8A5CD5669E60DCB108A022FF /* VoxFlowAirTool */ = {
+			isa = PBXFileReference;
+			explicitFileType = compiled.mach-o.executable;
+			includeInIndex = 0;
+			path = VoxFlowAirTool;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AD662EA8245AA4DC930B46A3 /* README.md */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = README.md;
+			sourceTree = "<group>";
+		};
+		C0F1A0000000000000000001 /* VoxFlowAir.xcconfig */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xcconfig;
+			name = VoxFlowAir.xcconfig;
+			path = Config/VoxFlowAir.xcconfig;
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3E0E7842347F5698DEB82282 /* Exceptions for "Resources" folder in "VoxFlowAir" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				VoxFlowAir.entitlements,
+			);
+			target = 813C8ECD3BFF387E7C5D475E;
+		};
+		4867CFDAD5A7E4AAEB3DF43A /* Exceptions for "VoxFlowAirDriver" folder in "VoxFlowAirDriver" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B7C783A83280A7C3E7D56844;
+		};
+		CDF4C3D8C4E25933D1A8F5C1 /* Exceptions for "VFObjC" folder in "VFObjC" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				include/VFObjC.h,
+			);
+			target = C7CC8E3939806C8B27815ABF;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		36FA9861228B10291E78E055 /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		4E0B6689A7A2F3C47E2BE616 /* Scripts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		66D4FE722E9200620273FC2C /* VFObjC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CDF4C3D8C4E25933D1A8F5C1,
+			);
+			path = Sources/VFObjC;
+			sourceTree = "<group>";
+		};
+		7E17EEAF13EE536433CAFCC7 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3E0E7842347F5698DEB82282,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		87B5DE867420976E1A4B879D /* VoxFlowAirCoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests/VoxFlowAirCoreTests;
+			sourceTree = "<group>";
+		};
+		8889E78A834557D3054D765C /* VoxFlowAirDriver */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4867CFDAD5A7E4AAEB3DF43A,
+			);
+			path = Driver/VoxFlowAirDriver;
+			sourceTree = "<group>";
+		};
+		990E8945DDBE926D0F339784 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Driver/Tests;
+			sourceTree = "<group>";
+		};
+		A9BD29053DEC39BB2700956D /* VoxFlowAir */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/VoxFlowAir;
+			sourceTree = "<group>";
+		};
+		EE5D50CF59ED0AF88E84B9D7 /* VoxFlowAirCore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/VoxFlowAirCore;
+			sourceTree = "<group>";
+		};
+		F4B04693629DEECF8169ADFA /* VoxFlowAirTool */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/VoxFlowAirTool;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0524ECDC728C12B852B888E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420E3416068930EB5A8BE6A6,
+				F5CD40231D5E6D00BB1DB020,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEECD851CFF77CBC2851EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56073ACD32C95A579FEAEC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DE87A2B9B6B765C8AE9D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F3028A80BDF48A0B4231C1,
+				B55B95B45570C2627DEC1665,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635012B83284FD73C1109403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F563D07494136D63221DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C553B1DEEE4BD4A39E9F2E,
+				9F2161F028A137064D8CBEC0,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B620BF69DFF0E96916BF71B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				66D4FE722E9200620273FC2C,
+				EE5D50CF59ED0AF88E84B9D7,
+				A9BD29053DEC39BB2700956D,
+				7E17EEAF13EE536433CAFCC7,
+				F4B04693629DEECF8169ADFA,
+				87B5DE867420976E1A4B879D,
+				8889E78A834557D3054D765C,
+				990E8945DDBE926D0F339784,
+				AD662EA8245AA4DC930B46A3,
+				C0F1A0000000000000000001,
+				36FA9861228B10291E78E055,
+				4E0B6689A7A2F3C47E2BE616,
+				86024CAD1E83101D97359D73,
+			);
+			sourceTree = "<group>";
+		};
+		86024CAD1E83101D97359D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6802974CE72D08C552B494F6,
+				36936A1610A4AE99D746014C,
+				7C865073C735A3C2712AB9E3,
+				8A5CD5669E60DCB108A022FF,
+				6520C694200FC3BD36A50969,
+				32A7E3910BCFCB6EE4E4D77F,
+				610680E70418F722D2BDD5F3,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EAF6D2EDBEAADBA0465D91EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB4608CAB4E1175F9996760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21911BCC48A0353811895A4C /* VoxFlowAirTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26805516D95136DFBA43FE09;
+			buildPhases = (
+				BAD861CBC5E8B4ABB26C9C0A,
+				84F563D07494136D63221DB3,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35CD4E3B03738CE3147DD3C,
+				F7B1C55EFFD04D4851BAE802,
+			);
+			fileSystemSynchronizedGroups = (
+				F4B04693629DEECF8169ADFA,
+			);
+			name = VoxFlowAirTool;
+			productName = VoxFlowAirTool;
+			productReference = 8A5CD5669E60DCB108A022FF;
+			productType = com.apple.product-type.tool;
+		};
+		813C8ECD3BFF387E7C5D475E /* VoxFlowAir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FAF199111A7AEFBD1EE514;
+			buildPhases = (
+				9F7B783F795813BBAEE3827F,
+				56DE87A2B9B6B765C8AE9D1B,
+				7E865C3BD5D4C9D1C9A78133,
+				34433C5173870C713769E8C0,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F05CFFE62363AAFAF9E3A2A,
+				C11B7053AFBBD45F6EA28C31,
+				0252F5CB1A6477A18BFE8F56,
+			);
+			fileSystemSynchronizedGroups = (
+				A9BD29053DEC39BB2700956D,
+				7E17EEAF13EE536433CAFCC7,
+			);
+			name = VoxFlowAir;
+			productName = VoxFlowAir;
+			productReference = 7C865073C735A3C2712AB9E3;
+			productType = com.apple.product-type.application;
+		};
+		87A5A03672E947A24350D876 /* VoxFlowAirDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1AC9E21338647930BA6AE8;
+			buildPhases = (
+				D9D73E55A25775FAD9295D25,
+				56073ACD32C95A579FEAEC5A,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				990E8945DDBE926D0F339784,
+			);
+			name = VoxFlowAirDriverTests;
+			productName = VoxFlowAirDriverTests;
+			productReference = 610680E70418F722D2BDD5F3;
+			productType = com.apple.product-type.tool;
+		};
+		A7842C6F79A3AFE73EC5795A /* VoxFlowAirCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8552A34F167E195D3A30680A;
+			buildPhases = (
+				47F3B76C64909659CE3E7847,
+				0524ECDC728C12B852B888E2,
+				7D847601074CC541DF881C36,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C305D2303C2DFCAFE59189F,
+				A90925DE25D3937E0B48E641,
+			);
+			fileSystemSynchronizedGroups = (
+				87B5DE867420976E1A4B879D,
+			);
+			name = VoxFlowAirCoreTests;
+			productName = VoxFlowAirCoreTests;
+			productReference = 6520C694200FC3BD36A50969;
+			productType = com.apple.product-type.bundle.unit-test;
+		};
+		A8FF8E3525768884221B65C0 /* VoxFlowAirCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27C016A60283732F325549B;
+			buildPhases = (
+				EAF6D2EDBEAADBA0465D91EB,
+				263C803C9ACE98A8234B4B94,
+				0BEECD851CFF77CBC2851EEE,
+				E91EB62D07104675E6FC424B,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99BC33CE00B5EDD59640A5F5,
+			);
+			fileSystemSynchronizedGroups = (
+				EE5D50CF59ED0AF88E84B9D7,
+			);
+			name = VoxFlowAirCore;
+			productName = VoxFlowAirCore;
+			productReference = 36936A1610A4AE99D746014C;
+			productType = com.apple.product-type.framework;
+		};
+		B7C783A83280A7C3E7D56844 /* VoxFlowAirDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E716F028C625BDDE168183A2;
+			buildPhases = (
+				ECA7E90B1091B2C0E4894870,
+				635012B83284FD73C1109403,
+				285CDED6DFAD4F0456C38F36,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8889E78A834557D3054D765C,
+			);
+			name = VoxFlowAirDriver;
+			productName = VoxFlowAirDriver;
+			productReference = 32A7E3910BCFCB6EE4E4D77F;
+			productType = com.apple.product-type.bundle;
+		};
+		C7CC8E3939806C8B27815ABF /* VFObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A53A4228ED5FEF8E5E594E3;
+			buildPhases = (
+				FFB4608CAB4E1175F9996760,
+				2B7EEE94D487C2015DC8BE60,
+				B620BF69DFF0E96916BF71B6,
+				D7A78C5664546E56B418AFB0,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				66D4FE722E9200620273FC2C,
+			);
+			name = VFObjC;
+			productName = VFObjC;
+			productReference = 6802974CE72D08C552B494F6;
+			productType = com.apple.product-type.framework;
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					VFObjC = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					VoxFlowAirCore = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					VoxFlowAir = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					VoxFlowAirTool = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					VoxFlowAirCoreTests = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					VoxFlowAirDriver = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					VoxFlowAirDriverTests = {
+						CreatedOnToolsVersion = 27.1;
+					};
+				};
+			};
+			buildConfigurationList = 4704357D31391BE81C31195C;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86024CAD1E83101D97359D73;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CC8E3939806C8B27815ABF,
+				A8FF8E3525768884221B65C0,
+				813C8ECD3BFF387E7C5D475E,
+				21911BCC48A0353811895A4C,
+				A7842C6F79A3AFE73EC5795A,
+				B7C783A83280A7C3E7D56844,
+				87A5A03672E947A24350D876,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285CDED6DFAD4F0456C38F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D847601074CC541DF881C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E865C3BD5D4C9D1C9A78133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A78C5664546E56B418AFB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91EB62D07104675E6FC424B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263C803C9ACE98A8234B4B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7EEE94D487C2015DC8BE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F3B76C64909659CE3E7847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7B783F795813BBAEE3827F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD861CBC5E8B4ABB26C9C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D73E55A25775FAD9295D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA7E90B1091B2C0E4894870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0252F5CB1A6477A18BFE8F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7C783A83280A7C3E7D56844;
+			targetProxy = CD44AA6155408F69B356203B;
+		};
+		2F05CFFE62363AAFAF9E3A2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FF8E3525768884221B65C0;
+			targetProxy = F47F440065B54554F422C3D0;
+		};
+		3C305D2303C2DFCAFE59189F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FF8E3525768884221B65C0;
+			targetProxy = 59A74EC6DE0D7B4CDE8D395A;
+		};
+		99BC33CE00B5EDD59640A5F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CC8E3939806C8B27815ABF;
+			targetProxy = FD489D9DC8D8F60B3A5AD8C8;
+		};
+		A90925DE25D3937E0B48E641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CC8E3939806C8B27815ABF;
+			targetProxy = 33173B84803551AB082393D3;
+		};
+		C11B7053AFBBD45F6EA28C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CC8E3939806C8B27815ABF;
+			targetProxy = BE8BA61904665B8E40FFAADE;
+		};
+		D35CD4E3B03738CE3147DD3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8FF8E3525768884221B65C0;
+			targetProxy = E64C63C1CF9E653C4004534F;
+		};
+		F7B1C55EFFD04D4851BAE802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CC8E3939806C8B27815ABF;
+			targetProxy = 2350BDDD63943E64D845D285;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16F1D847FDC6D8010B4BBCF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Driver/Shared",
+					"$(SRCROOT)/Driver/VoxFlowAirDriver",
+				);
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreFoundation,
+				);
+			};
+			name = Debug;
+		};
+		1C07FA114C3B1BFB6219D6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F1A0000000000000000001 /* VoxFlowAir.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				ARCHS = arm64;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		20909DA48A4B6501549ACE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID).tests";
+				GENERATE_INFOPLIST_FILE = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					Accelerate,
+					"-framework",
+					CoreAudioKit,
+					"-framework",
+					ServiceManagement,
+					"-framework",
+					AppKit,
+				);
+			};
+			name = Debug;
+		};
+		3B5010536F5BD7752C6A35D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Driver/Shared",
+					"$(SRCROOT)/Driver/VoxFlowAirDriver",
+				);
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreFoundation,
+				);
+			};
+			name = Release;
+		};
+		3F850DAD9AC3BEBB9E3FA400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID).tests";
+				GENERATE_INFOPLIST_FILE = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					Accelerate,
+					"-framework",
+					CoreAudioKit,
+					"-framework",
+					ServiceManagement,
+					"-framework",
+					AppKit,
+				);
+			};
+			name = Release;
+		};
+		48CA1103BA9A2167227C9880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					Accelerate,
+					"-framework",
+					CoreAudioKit,
+					"-framework",
+					ServiceManagement,
+					"-framework",
+					AppKit,
+				);
+			};
+			name = Debug;
+		};
+		4E9E042BCFC328AF258D9D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					Accelerate,
+					"-framework",
+					CoreAudioKit,
+					"-framework",
+					ServiceManagement,
+					"-framework",
+					AppKit,
+				);
+			};
+			name = Release;
+		};
+		5DB14D1B255D6AE821689733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+				DEFINES_MODULE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID).VoxFlowAirCore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GENERATE_INFOPLIST_FILE = YES;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		779DE6BFEE4B5B0D6697A388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = VoxFlowAirDriver;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID).driver";
+				WRAPPER_EXTENSION = driver;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = Driver/VoxFlowAirDriver/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				INSTALL_PATH = /Library/Audio/Plug-Ins/HAL;
+				SKIP_INSTALL = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					Accelerate,
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Driver/Shared";
+				ARCHS = "arm64 x86_64";
+				ONLY_ACTIVE_ARCH = NO;
+			};
+			name = Release;
+		};
+		989D5FA34C1D752FB238C74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+				DEFINES_MODULE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID).VoxFlowAirCore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GENERATE_INFOPLIST_FILE = YES;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B6719C7C5191A92A1E632A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+				DEFINES_MODULE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID).VFObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GENERATE_INFOPLIST_FILE = YES;
+				SKIP_INSTALL = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/VFObjC/include";
+			};
+			name = Release;
+		};
+		B181ECB27656C11105377309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+				DEFINES_MODULE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID).VFObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GENERATE_INFOPLIST_FILE = YES;
+				SKIP_INSTALL = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/VFObjC/include";
+			};
+			name = Debug;
+		};
+		C45DFF3D709A882377F9B22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = VoxFlowAirDriver;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID).driver";
+				WRAPPER_EXTENSION = driver;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = Driver/VoxFlowAirDriver/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				INSTALL_PATH = /Library/Audio/Plug-Ins/HAL;
+				SKIP_INSTALL = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-unused-parameter",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					Accelerate,
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Driver/Shared";
+				ARCHS = "arm64 x86_64";
+				ONLY_ACTIVE_ARCH = NO;
+			};
+			name = Debug;
+		};
+		CA917B8E97F6B37E123304DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = VoxFlowAir;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID)";
+				INFOPLIST_FILE = Resources/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Resources/VoxFlowAir.entitlements;
+				ENABLE_HARDENED_RUNTIME = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					Accelerate,
+					"-framework",
+					CoreAudioKit,
+					"-framework",
+					ServiceManagement,
+					"-framework",
+					AppKit,
+				);
+			};
+			name = Debug;
+		};
+		DFDF9731BB1601947647BAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = VoxFlowAir;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(VOXFLOWAIR_BUNDLE_ID)";
+				INFOPLIST_FILE = Resources/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Resources/VoxFlowAir.entitlements;
+				ENABLE_HARDENED_RUNTIME = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					Accelerate,
+					"-framework",
+					CoreAudioKit,
+					"-framework",
+					ServiceManagement,
+					"-framework",
+					AppKit,
+				);
+			};
+			name = Release;
+		};
+		EACC89DFBDBC23F92C301936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F1A0000000000000000001 /* VoxFlowAir.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = NO;
+				ARCHS = arm64;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26805516D95136DFBA43FE09 /* Build configuration list for PBXNativeTarget "VoxFlowAirTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CA1103BA9A2167227C9880,
+				4E9E042BCFC328AF258D9D8E,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4704357D31391BE81C31195C /* Build configuration list for PBXProject "VoxFlowAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C07FA114C3B1BFB6219D6F4,
+				EACC89DFBDBC23F92C301936,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FAF199111A7AEFBD1EE514 /* Build configuration list for PBXNativeTarget "VoxFlowAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA917B8E97F6B37E123304DC,
+				DFDF9731BB1601947647BAEE,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A53A4228ED5FEF8E5E594E3 /* Build configuration list for PBXNativeTarget "VFObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B181ECB27656C11105377309,
+				9B6719C7C5191A92A1E632A6,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8552A34F167E195D3A30680A /* Build configuration list for PBXNativeTarget "VoxFlowAirCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20909DA48A4B6501549ACE4E,
+				3F850DAD9AC3BEBB9E3FA400,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27C016A60283732F325549B /* Build configuration list for PBXNativeTarget "VoxFlowAirCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989D5FA34C1D752FB238C74E,
+				5DB14D1B255D6AE821689733,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E716F028C625BDDE168183A2 /* Build configuration list for PBXNativeTarget "VoxFlowAirDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45DFF3D709A882377F9B22C,
+				779DE6BFEE4B5B0D6697A388,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1AC9E21338647930BA6AE8 /* Build configuration list for PBXNativeTarget "VoxFlowAirDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F1D847FDC6D8010B4BBCF1,
+				3B5010536F5BD7752C6A35D6,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>en</string>
+	<key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+	<key>CFBundleName</key><string>VoxFlowAirDriver</string>
+	<key>CFBundlePackageType</key><string>BNDL</string>
+	<key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CFBundleSupportedPlatforms</key><array><string>MacOSX</string></array>
+	<key>LSMinimumSystemVersion</key><string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHumanReadableCopyright</key><string>© 2026 Quentin Descotte. VoxFlowAir virtual audio device.</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>D3A5EDED-A8C1-4A49-851F-63C9BA34495E</key>
+		<string>VoxFlowAirDriver_Create</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<!-- kAudioServerPlugInTypeUUID -->
+		<key>443ABAB8-E7B3-491A-B985-BEB9187030DB</key>
+		<array>
+			<string>D3A5EDED-A8C1-4A49-851F-63C9BA34495E</string>
+		</array>
+	</dict>
+</dict>
+</plist>

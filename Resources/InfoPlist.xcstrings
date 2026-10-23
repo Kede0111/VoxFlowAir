@@ -1,0 +1,40 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "NSHumanReadableCopyright" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2026 Quentin Descotte. Created by Quentin Descotte."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2026 Quentin Descotte. Créé par Quentin Descotte."
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoxFlowAir processes your microphone in real time before sending it to OBS, FaceTime and your other apps."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoxFlowAir traite le son de votre micro en temps réel avant de l'envoyer vers OBS, FaceTime et vos autres applications."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

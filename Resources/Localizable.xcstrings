@@ -1,0 +1,7103 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "": {
+      "shouldTranslate": false
+    },
+    "%@ %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ %2$lld"
+          }
+        }
+      },
+      "shouldTranslate": false
+    },
+    "%@ (%lld ch)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ (%2$lld ch)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ (%2$lld can.)"
+          }
+        }
+      }
+    },
+    "%@ (VoxFlowAir driver)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (pilote VoxFlowAir)"
+          }
+        }
+      }
+    },
+    "%@ copy": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ copie"
+          }
+        }
+      }
+    },
+    "%@ is listening to BlackHole: its echo canceller erases the voice going through BlackHole, so the other party may not hear you. Use the VoxFlowAir microphone: Settings › Virtual Output “VoxFlowAir Micro (VoxFlowAir driver)”, then choose that microphone in the call.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ écoute BlackHole : son annulateur d'écho efface la voix qui passe par BlackHole, votre correspondant risque de ne pas vous entendre. Utilisez le micro VoxFlowAir : Réglages › Sortie virtuelle « VoxFlowAir Micro (pilote VoxFlowAir) », puis choisissez ce micro dans l'appel."
+          }
+        }
+      }
+    },
+    "%@ ms (not measured)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ms (non mesurée)"
+          }
+        }
+      }
+    },
+    "%@ — %lld samples": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ — %2$lld samples"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ — %2$lld éch."
+          }
+        }
+      }
+    },
+    "%@ — %lld samples (not supported)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ — %2$lld samples (not supported)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ — %2$lld éch. (non pris en charge)"
+          }
+        }
+      }
+    },
+    "%@ — Generic Parameters": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ — paramètres génériques"
+          }
+        }
+      }
+    },
+    "%@%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@%2$@"
+          }
+        }
+      },
+      "shouldTranslate": false
+    },
+    "%lld": {
+      "shouldTranslate": false
+    },
+    "%lld (%lld plugins)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld (%2$lld plugins)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld (%2$lld plugins)"
+          }
+        }
+      }
+    },
+    "%lld / %lld samples": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld / %2$lld samples"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld / %2$lld éch."
+          }
+        }
+      }
+    },
+    "%lld AU effects · double-click: end of chain · drag: onto the graph or a connection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld effets AU · double-clic : fin de chaîne · glisser : sur le graphe ou une connexion"
+          }
+        }
+      }
+    },
+    "%lld bits": {
+      "shouldTranslate": false
+    },
+    "%lld node(s) outside the main chain (branches or free nodes): arrange them on the canvas.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld nœud(s) hors de la chaîne principale (branches ou nœuds libres) : leur place se règle sur le canevas."
+          }
+        }
+      }
+    },
+    "%lld nodes selected": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld nœuds sélectionnés"
+          }
+        }
+      }
+    },
+    "%lld plugin(s) failed or missing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld plugin(s) en erreur ou absent(s)"
+          }
+        }
+      }
+    },
+    "%lld samples": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld échantillons"
+          }
+        }
+      }
+    },
+    "%lld samples · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld samples · %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld éch. · %2$@"
+          }
+        }
+      }
+    },
+    "%lld shown of %lld installed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld affichés sur %2$lld installés"
+          }
+        }
+      }
+    },
+    "%lld/%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld/%2$lld"
+          }
+        }
+      },
+      "shouldTranslate": false
+    },
+    "+ %lld more parameters in the full interface": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ %lld autres paramètres dans l'interface complète"
+          }
+        }
+      }
+    },
+    ", monitoring on %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ", monitoring sur %@"
+          }
+        }
+      }
+    },
+    "1. Click “Install in Terminal”. The script checks for Homebrew, downloads the official signed package from Existential Audio (checksum verified by Homebrew) and installs it.\n2. Enter your administrator password when Terminal asks for it (VoxFlowAir never sees it).\n3. Come back here and click “Check”. If the device does not appear, restart the Mac.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Cliquez sur « Installer dans le Terminal ». Le script vérifie Homebrew, télécharge le paquet officiel signé d'Existential Audio (somme de contrôle vérifiée par Homebrew) et l'installe.\n2. Saisissez votre mot de passe administrateur quand le Terminal le demande (VoxFlowAir ne le voit jamais).\n3. Revenez ici et cliquez sur « Vérifier ». Si le périphérique n'apparaît pas, redémarrez le Mac."
+          }
+        }
+      }
+    },
+    "A duplicated mono microphone reads +1. A negative value indicates a phase inversion.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un micro mono dupliqué donne +1. Une valeur négative signale une inversion de phase."
+          }
+        }
+      }
+    },
+    "A node cannot be connected to itself.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un nœud ne peut pas être relié à lui-même."
+          }
+        }
+      }
+    },
+    "A recording is already in progress": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrement déjà en cours"
+          }
+        }
+      }
+    },
+    "A shorter buffer reduces latency but increases the risk of audio dropouts with demanding plugins. If overloads appear, choose a more stable profile.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un buffer plus court réduit la latence mais augmente le risque de pertes audio avec des plugins gourmands. Si des surcharges apparaissent, choisissez un profil plus stable."
+          }
+        }
+      }
+    },
+    "A ⇄ B": {
+      "shouldTranslate": false
+    },
+    "AU identifier": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identifiant AU"
+          }
+        }
+      }
+    },
+    "AU plugin": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin AU"
+          }
+        }
+      }
+    },
+    "About": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos"
+          }
+        }
+      }
+    },
+    "Active": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actif"
+          }
+        }
+      }
+    },
+    "Active chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaîne active"
+          }
+        }
+      }
+    },
+    "Active. In FaceTime (Video › Output), choose “%@”: you hear the call and your processed voice in the headphones, without FaceTime cancelling it.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actif. Dans FaceTime (Vidéo › Sortie), choisissez « %@ » : vous entendez l'appel et votre voix traitée dans le casque, sans que FaceTime ne l'efface."
+          }
+        }
+      }
+    },
+    "Add Native Node": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter un nœud natif"
+          }
+        }
+      }
+    },
+    "Add to End of Chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter à la fin de la chaîne"
+          }
+        }
+      }
+    },
+    "Add to Favorites": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter aux favoris"
+          }
+        }
+      }
+    },
+    "Add to the end of the chain (or drag)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter à la fin de la chaîne (ou glisser)"
+          }
+        }
+      }
+    },
+    "Aggregate": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agrégé"
+          }
+        }
+      }
+    },
+    "Aim for a ⊕ connection. Released elsewhere, nothing changes.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visez une connexion ⊕. Relâché ailleurs, rien ne change."
+          }
+        }
+      }
+    },
+    "All canvas gestures and shortcuts": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tous les gestes et raccourcis du canevas"
+          }
+        }
+      }
+    },
+    "All installed Audio Units": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toutes les Audio Units installées"
+          }
+        }
+      }
+    },
+    "Allow Microphone Access…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autoriser le micro…"
+          }
+        }
+      }
+    },
+    "Allowed plugins": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugins autorisés"
+          }
+        }
+      }
+    },
+    "Analog VU meter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VU-mètre analogique"
+          }
+        }
+      }
+    },
+    "Analyze This Point": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyser ce point"
+          }
+        }
+      }
+    },
+    "Analyzed source": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source analysée"
+          }
+        }
+      }
+    },
+    "Analyzer": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyseur"
+          }
+        }
+      }
+    },
+    "Analyzer: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyseur : %@"
+          }
+        }
+      }
+    },
+    "Analyzers": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyseurs"
+          }
+        }
+      }
+    },
+    "Appearance": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apparence"
+          }
+        }
+      }
+    },
+    "Applied each time the preset loads. Apps find the microphone by its identifier: renaming it does not change their setting.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appliqué à chaque chargement du preset. Les applications retrouvent le micro par son identifiant : le renommer ne change pas leur réglage."
+          }
+        }
+      }
+    },
+    "Apply": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appliquer"
+          }
+        }
+      }
+    },
+    "Arrange nodes in chain order (positions only, the sound doesn't change; ⌘Z to undo)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ranger les nœuds dans l'ordre de la chaîne (positions seulement, le son ne change pas ; ⌘Z pour annuler)"
+          }
+        }
+      }
+    },
+    "Audio": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Audio"
+          }
+        }
+      }
+    },
+    "Audio dropouts detected: %lld": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pertes audio détectées : %lld"
+          }
+        }
+      }
+    },
+    "Audio has been interrupted for 3 s: restarting automatically.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le flux audio est interrompu depuis 3 s : redémarrage automatique."
+          }
+        }
+      }
+    },
+    "Audio: %@. Resetting the engine.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Audio : %@. Réinitialisation du moteur."
+          }
+        }
+      }
+    },
+    "Automatic": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatique"
+          }
+        }
+      }
+    },
+    "Automatic (BlackHole, otherwise VoxFlowAir Micro)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatique (BlackHole, sinon VoxFlowAir Micro)"
+          }
+        }
+      }
+    },
+    "B ⇄ A": {
+      "shouldTranslate": false
+    },
+    "Balanced": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Équilibré"
+          }
+        }
+      }
+    },
+    "BlackHole %@ is installed but macOS does not publish it yet. Restart the audio service or the Mac.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BlackHole %@ est installé mais macOS ne le publie pas encore. Redémarrez le service audio ou le Mac."
+          }
+        }
+      }
+    },
+    "BlackHole %@ is installed but not yet loaded by macOS. Restart the Mac (or run “sudo killall coreaudiod” in Terminal).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BlackHole %@ est installé mais n'est pas encore chargé par macOS. Redémarrez le Mac (ou exécutez « sudo killall coreaudiod » dans le Terminal)."
+          }
+        }
+      }
+    },
+    "BlackHole is free software (GPL-3.0), independent of VoxFlowAir, which only uses it as an audio device. Other apps may depend on it too: uninstalling VoxFlowAir does not remove it. To remove it: “%@”.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BlackHole est un logiciel libre (GPL-3.0) indépendant de VoxFlowAir, qui ne fait que l'utiliser comme périphérique audio. D'autres applications peuvent aussi en dépendre : la désinstallation de VoxFlowAir ne le supprime pas. Pour le retirer : « %@ »."
+          }
+        }
+      }
+    },
+    "Buffer": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buffer"
+          }
+        }
+      }
+    },
+    "Buffer size %lld rejected: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Buffer size %1$lld rejected: %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille de buffer %1$lld refusée : %2$@"
+          }
+        }
+      }
+    },
+    "Buffer size. Smaller = less latency, higher risk of dropouts.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille du buffer. Plus petit = moins de latence, plus de risque de pertes."
+          }
+        }
+      }
+    },
+    "Built-in": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intégré"
+          }
+        }
+      }
+    },
+    "By category (AU plugins)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Par catégorie (plugins AU)"
+          }
+        }
+      }
+    },
+    "Bypass": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contourner"
+          }
+        }
+      }
+    },
+    "Bypass %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contourner %@"
+          }
+        }
+      }
+    },
+    "Bypass Processing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bypass du traitement"
+          }
+        }
+      }
+    },
+    "Bypass Selection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contourner la sélection"
+          }
+        }
+      }
+    },
+    "Bypass section": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contourner la section"
+          }
+        }
+      }
+    },
+    "Bypass the whole section": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contourner toute la section"
+          }
+        }
+      }
+    },
+    "Bypass this node": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contourner ce nœud"
+          }
+        }
+      }
+    },
+    "Bypassed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contourné"
+          }
+        }
+      }
+    },
+    "Bypasses the whole chain: the virtual output and monitoring receive the unprocessed microphone, with a crossfade. Plugins keep running for an instant return. ": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contourne toute la chaîne : sortie virtuelle et monitoring reçoivent le micro non traité, avec fondu enchaîné. Les plugins continuent de tourner pour un retour instantané. "
+          }
+        }
+      }
+    },
+    "Calculated from the values reported by Core Audio and the plugins; not measured.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calculée à partir des valeurs déclarées par Core Audio et les plugins ; non mesurée."
+          }
+        }
+      }
+    },
+    "Call ended: monitoring restored.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appel terminé : monitoring rétabli."
+          }
+        }
+      }
+    },
+    "Call return level": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niveau du retour d'appel"
+          }
+        }
+      }
+    },
+    "Call return: hear what plays into BlackHole in the headphones": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retour d'appel : entendre au casque ce qui joue dans BlackHole"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        }
+      }
+    },
+    "Cancel the current gesture · undo": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler le geste en cours · annuler"
+          }
+        }
+      }
+    },
+    "Canvas help": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aide du canevas"
+          }
+        }
+      }
+    },
+    "Category": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catégorie"
+          }
+        }
+      }
+    },
+    "Change the processing order": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Changer l'ordre du traitement"
+          }
+        }
+      }
+    },
+    "Channels": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Canaux"
+          }
+        }
+      }
+    },
+    "Check": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vérifier"
+          }
+        }
+      }
+    },
+    "Check Interface and Validation": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vérifier interface et validation"
+          }
+        }
+      }
+    },
+    "Check the virtual device, then restart the engine.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vérifiez le périphérique virtuel puis redémarrez le moteur."
+          }
+        }
+      }
+    },
+    "Choose a meter from the menu.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un instrument dans le menu."
+          }
+        }
+      }
+    },
+    "Choose…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir…"
+          }
+        }
+      }
+    },
+    "Clear": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effacer"
+          }
+        }
+      }
+    },
+    "Click a plugin’s star to add it.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cliquez sur l'étoile d'un plugin pour l'ajouter."
+          }
+        }
+      }
+    },
+    "Click to unlock": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cliquer pour déverrouiller"
+          }
+        }
+      }
+    },
+    "Click · ⇧ or ⌘ + click": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clic · ⇧ ou ⌘ + clic"
+          }
+        }
+      }
+    },
+    "Click “Generate Report”.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cliquez sur « Générer le rapport »."
+          }
+        }
+      }
+    },
+    "Clip recorded: %@ (raw) and %@ (processed).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Clip recorded: %1$@ (raw) and %2$@ (processed)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extrait enregistré : %1$@ (brut) et %2$@ (traité)."
+          }
+        }
+      }
+    },
+    "Clipping detected (click to clear)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écrêtage détecté (cliquer pour effacer)"
+          }
+        }
+      }
+    },
+    "Clipping detected — click to reset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écrêtage détecté — cliquer pour réinitialiser"
+          }
+        }
+      }
+    },
+    "Clipping — click to clear": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écrêtage — cliquer pour effacer"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fermer"
+          }
+        }
+      }
+    },
+    "Closing the main window does not stop processing: VoxFlowAir stays active in the menu bar. To stop it, use “Quit” in the menu bar panel.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fermer la fenêtre principale ne coupe pas le traitement : VoxFlowAir reste actif dans la barre des menus. Pour l'arrêter, utilisez « Quitter » dans le panneau de la barre des menus."
+          }
+        }
+      }
+    },
+    "Compare": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparer"
+          }
+        }
+      }
+    },
+    "Connect two nodes": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relier deux nœuds"
+          }
+        }
+      }
+    },
+    "Connection refused: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion refusée : %@"
+          }
+        }
+      }
+    },
+    "Connection — click to select, Delete to remove, right-click to insert a node": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion — clic pour sélectionner, Suppr pour retirer, clic droit pour insérer un nœud"
+          }
+        }
+      }
+    },
+    "Connections": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexions"
+          }
+        }
+      }
+    },
+    "Controls": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commandes"
+          }
+        }
+      }
+    },
+    "Copied": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copié"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copier"
+          }
+        }
+      }
+    },
+    "Copy Command": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copier la commande"
+          }
+        }
+      }
+    },
+    "Could not add “%@”: %@ The chain was not changed.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Could not add “%1$@”: %2$@ The chain was not changed."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajout de « %1$@ » refusé : %2$@ La chaîne n'a pas été modifiée."
+          }
+        }
+      }
+    },
+    "Could not create the preset: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Création du preset impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not delete the preset: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suppression du preset impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not delete “%@”: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Could not delete “%1$@”: %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suppression de « %1$@ » refusée : %2$@"
+          }
+        }
+      }
+    },
+    "Could not duplicate the preset: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplication du preset impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not export the preset: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export du preset impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not import the preset: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import du preset impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not install the factory preset “%@”: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Could not install the factory preset “%1$@”: %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installation du preset d'origine « %1$@ » impossible : %2$@"
+          }
+        }
+      }
+    },
+    "Could not instantiate %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instanciation impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not load “%@”: %@. The node is bypassed.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Could not load “%1$@”: %2$@. The node is bypassed."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chargement de « %1$@ » impossible : %2$@. Le nœud est contourné."
+          }
+        }
+      }
+    },
+    "Could not open the virtual output: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle impossible à ouvrir : %@"
+          }
+        }
+      }
+    },
+    "Could not rename the preset: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renommage du preset impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not restore the preset: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restauration du preset impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not restore “%@”: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Could not restore “%1$@”: %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restauration de « %1$@ » impossible : %2$@"
+          }
+        }
+      }
+    },
+    "Could not save the preset: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrement du preset impossible : %@"
+          }
+        }
+      }
+    },
+    "Could not start the engine: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrage du moteur impossible : %@"
+          }
+        }
+      }
+    },
+    "Creating the IOProc": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Création de l'IOProc"
+          }
+        }
+      }
+    },
+    "Creating the aggregate device": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Création du périphérique agrégé"
+          }
+        }
+      }
+    },
+    "Current setting (%@)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglage actuel (%@)"
+          }
+        }
+      }
+    },
+    "Cycles where the graph could not be rendered (replaced with silence).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cycles où le graphe n'a pas pu être rendu (remplacés par du silence)."
+          }
+        }
+      }
+    },
+    "Dark": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sombre"
+          }
+        }
+      }
+    },
+    "Dedicated Monitoring Output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie monitoring dédiée"
+          }
+        }
+      }
+    },
+    "Dedicated headphone output: the headphones play the point of the chain connected to this node.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie casque dédiée : le casque écoute le point de la chaîne relié à ce nœud."
+          }
+        }
+      }
+    },
+    "Default": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Par défaut"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer"
+          }
+        }
+      }
+    },
+    "Delete Connection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer la connexion"
+          }
+        }
+      }
+    },
+    "Delete · duplicate · group": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer · dupliquer · grouper"
+          }
+        }
+      }
+    },
+    "Delete · ⌘D · ⌘G": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suppr · ⌘D · ⌘G"
+          }
+        }
+      }
+    },
+    "Delete “%@”?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer « %@ » ?"
+          }
+        }
+      }
+    },
+    "Delete “%@”…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer « %@ »…"
+          }
+        }
+      }
+    },
+    "Device": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Périphérique"
+          }
+        }
+      }
+    },
+    "Device bit depth; internal processing in 32-bit float": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Résolution du périphérique ; traitement interne en 32 bits flottant"
+          }
+        }
+      }
+    },
+    "Device disconnected: %@. Reconfiguring…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Périphérique déconnecté : %@. Reconfiguration…"
+          }
+        }
+      }
+    },
+    "Device not found: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Périphérique introuvable : %@"
+          }
+        }
+      }
+    },
+    "Diagnostics": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diagnostic"
+          }
+        }
+      }
+    },
+    "Don’t Save": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne pas enregistrer"
+          }
+        }
+      }
+    },
+    "Double-click": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Double-clic"
+          }
+        }
+      }
+    },
+    "Double-click to add, or drag onto the graph": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Double-cliquer pour ajouter, ou glisser sur le graphe"
+          }
+        }
+      }
+    },
+    "Drag a node": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glisser un nœud"
+          }
+        }
+      }
+    },
+    "Drag a node to a connection: a ⊕ marker and a preview of the new order appear before you release. Anywhere else on the canvas, the node is only moved.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glissez un nœud jusqu'à une connexion : un repère ⊕ et l'aperçu du nouvel ordre apparaissent avant de relâcher. Ailleurs sur le canevas, le nœud est seulement déplacé."
+          }
+        }
+      }
+    },
+    "Drag from the output port": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tirer depuis le port de sortie"
+          }
+        }
+      }
+    },
+    "Drag on the background": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glisser sur le fond"
+          }
+        }
+      }
+    },
+    "Drag to adjust the loudness width": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glisser pour régler la largeur de la sonie"
+          }
+        }
+      }
+    },
+    "Drag to widen the input and output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glisser pour élargir l'entrée et la sortie"
+          }
+        }
+      }
+    },
+    "Driver: %@ reader(s), %@ writer(s), %@ Hz, %@ gap(s) filled": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Driver: %1$@ reader(s), %2$@ writer(s), %3$@ Hz, %4$@ gap(s) filled"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilote : %1$@ lecture(s), %2$@ écriture(s), %3$@ Hz, %4$@ trou(s) comblé(s)"
+          }
+        }
+      }
+    },
+    "Drop a node on a ⊕ connection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déposer un nœud sur une connexion ⊕"
+          }
+        }
+      }
+    },
+    "Drop the node on a ⊕ connection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déposer le nœud sur une connexion ⊕"
+          }
+        }
+      }
+    },
+    "Drop the node on a ⊕ marker to change the processing order.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déposez le nœud sur un repère ⊕ pour changer l'ordre du traitement."
+          }
+        }
+      }
+    },
+    "Dropouts": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pertes"
+          }
+        }
+      }
+    },
+    "Duplicate": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dupliquer"
+          }
+        }
+      }
+    },
+    "Duplicate Node": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dupliquer le nœud"
+          }
+        }
+      }
+    },
+    "Duplicate “%@”": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dupliquer « %@ »"
+          }
+        }
+      }
+    },
+    "Dynamics": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dynamique"
+          }
+        }
+      }
+    },
+    "Editing Locked": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Édition verrouillée"
+          }
+        }
+      }
+    },
+    "Editing is locked.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Édition verrouillée."
+          }
+        }
+      }
+    },
+    "Effects": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effets"
+          }
+        }
+      }
+    },
+    "Enable": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réactiver"
+          }
+        }
+      }
+    },
+    "Enable %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réactiver %@"
+          }
+        }
+      }
+    },
+    "Enabling manual rendering: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activation du rendu manuel : %@"
+          }
+        }
+      }
+    },
+    "End Comparison (Keep Current State)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminer la comparaison (garder l'état affiché)"
+          }
+        }
+      }
+    },
+    "Engine running — click to stop it": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moteur actif — cliquer pour l'arrêter"
+          }
+        }
+      }
+    },
+    "Engine running: %@ → %@%@ at %lld Hz, buffer %lld.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Engine running: %1$@ → %2$@%3$@ at %4$lld Hz, buffer %5$lld."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moteur actif : %1$@ → %2$@%3$@ à %4$lld Hz, buffer %5$lld."
+          }
+        }
+      }
+    },
+    "Engine stopped — click to start it": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moteur arrêté — cliquer pour le démarrer"
+          }
+        }
+      }
+    },
+    "Equalization": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Égalisation"
+          }
+        }
+      }
+    },
+    "Error: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erreur : %@"
+          }
+        }
+      }
+    },
+    "Errors": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erreurs"
+          }
+        }
+      }
+    },
+    "Esc · ⌘Z": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échap · ⌘Z"
+          }
+        }
+      }
+    },
+    "Estimated headphone latency · %@ kHz": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latence casque estimée · %@ kHz"
+          }
+        }
+      }
+    },
+    "Estimated latency": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latence estimée"
+          }
+        }
+      }
+    },
+    "Estimated latency ≈ %.1f ms · %d samples · %.0f kHz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Estimated latency ≈ %1$.1f ms · %2$d samples · %3$.0f kHz"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latence estimée ≈ %1$.1f ms · %2$d éch. · %3$.0f kHz"
+          }
+        }
+      }
+    },
+    "Estimated total": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total estimé"
+          }
+        }
+      }
+    },
+    "Estimated total latency to apps (not measured)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latence totale estimée jusqu'aux applications (non mesurée)"
+          }
+        }
+      }
+    },
+    "Estimates (Core Audio properties + latencies reported by plugins), not measurements.\nHeadphones: ≈ %@ ms · virtual output: ≈ %@ ms (including a %lld-sample buffer)\nBuffer: %lld samples (%@ ms) ×2\nHardware input: %lld samples · output: %lld samples\nPlugins: %@ ms\nThe engine → BlackHole offset is measured separately (Settings › Diagnostics).\nThe app receiving the sound (OBS, FaceTime…) adds its own latency.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Estimates (Core Audio properties + latencies reported by plugins), not measurements.\nHeadphones: ≈ %1$@ ms · virtual output: ≈ %2$@ ms (including a %3$lld-sample buffer)\nBuffer: %4$lld samples (%5$@ ms) ×2\nHardware input: %6$lld samples · output: %7$lld samples\nPlugins: %8$@ ms\nThe engine → BlackHole offset is measured separately (Settings › Diagnostics).\nThe app receiving the sound (OBS, FaceTime…) adds its own latency."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estimations (propriétés Core Audio + latences déclarées des plugins), pas des mesures.\nCasque : ≈ %1$@ ms · sortie virtuelle : ≈ %2$@ ms (dont tampon %3$lld éch.)\nBuffer : %4$lld éch. (%5$@ ms) ×2\nMatériel entrée : %6$lld éch. · sortie : %7$lld éch.\nPlugins : %8$@ ms\nLe décalage moteur → BlackHole est mesuré séparément (Réglages › Diagnostic).\nL'application qui reçoit le son (OBS, FaceTime…) ajoute sa propre latence."
+          }
+        }
+      }
+    },
+    "Event Log": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Journal des événements"
+          }
+        }
+      }
+    },
+    "Event log": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Journal des événements"
+          }
+        }
+      }
+    },
+    "Export…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exporter…"
+          }
+        }
+      }
+    },
+    "External plugin · %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin externe · %@"
+          }
+        }
+      }
+    },
+    "FaceTime and other calling apps cancel everything that plays on their speaker as echo: if VoxFlowAir monitors your voice there, the other person can no longer hear you.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FaceTime et les autres applications d'appel effacent comme un écho tout ce qui joue sur leur haut-parleur : si VoxFlowAir y monitore votre voix, votre correspondant ne vous entend plus."
+          }
+        }
+      }
+    },
+    "Factory presets added: %@.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Presets d'origine ajoutés : %@."
+          }
+        }
+      }
+    },
+    "Failed to load “%@”. The node is bypassed; its settings are kept.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échec de chargement de « %@ ». Le nœud est contourné ; ses réglages sont conservés."
+          }
+        }
+      }
+    },
+    "Favorites": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favoris"
+          }
+        }
+      }
+    },
+    "Filter": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtrer"
+          }
+        }
+      }
+    },
+    "Filters": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtres"
+          }
+        }
+      }
+    },
+    "Final processed signal, before the output gain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signal final traité, avant le gain de sortie"
+          }
+        }
+      }
+    },
+    "Format": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format"
+          }
+        }
+      }
+    },
+    "Free and open-source software, released under the MIT License.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Logiciel libre et open source, distribué sous licence MIT."
+          }
+        }
+      }
+    },
+    "Full analyzer: spectrum, stereo image, peaks": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyseur complet : spectre, image stéréo, crêtes"
+          }
+        }
+      }
+    },
+    "Gain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gain"
+          }
+        }
+      }
+    },
+    "General": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Général"
+          }
+        }
+      }
+    },
+    "Generate Report": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Générer le rapport"
+          }
+        }
+      }
+    },
+    "Got It": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compris"
+          }
+        }
+      }
+    },
+    "Graph": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Graphe"
+          }
+        }
+      }
+    },
+    "Graph check": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vérification du graphe"
+          }
+        }
+      }
+    },
+    "Grip ≡ or ⌥ + drag": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poignée ≡ ou ⌥ + glisser"
+          }
+        }
+      }
+    },
+    "Group": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Groupe"
+          }
+        }
+      }
+    },
+    "Group Selection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grouper la sélection"
+          }
+        }
+      }
+    },
+    "Group into Section": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Regrouper en section"
+          }
+        }
+      }
+    },
+    "Hardware input / output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matériel entrée / sortie"
+          }
+        }
+      }
+    },
+    "Headphone monitoring": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écoute au casque"
+          }
+        }
+      }
+    },
+    "Headphone output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie casque"
+          }
+        }
+      }
+    },
+    "Headphones": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Casque"
+          }
+        }
+      }
+    },
+    "Headphones in use": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Casque utilisé actuellement"
+          }
+        }
+      }
+    },
+    "Hidden plugins": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugins masqués"
+          }
+        }
+      }
+    },
+    "Hide Inspector": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masquer l'inspecteur"
+          }
+        }
+      }
+    },
+    "Hide Meter Monitors": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masquer les moniteurs de mesure"
+          }
+        }
+      }
+    },
+    "Hide from Library": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masquer de la bibliothèque"
+          }
+        }
+      }
+    },
+    "Hide inspector (⌥⌘I)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masquer l'inspecteur (⌥⌘I)"
+          }
+        }
+      }
+    },
+    "Hide meter monitors (⌘2). They keep measuring.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masquer les moniteurs de mesure (⌘2). Ils continuent de mesurer."
+          }
+        }
+      }
+    },
+    "INPUT": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ENTRÉE"
+          }
+        }
+      }
+    },
+    "ITU-R BS.1770 / EBU R128 loudness: INT = integrated (gates -70 / -10), LRA = loudness range, TP = approximate true peak (×4), M = 400 ms, S = 3 s.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonie ITU-R BS.1770 / EBU R128 : INT = intégrée (portes -70 / -10), LRA = plage de sonie, TP = crête vraie approchée (×4), M = 400 ms, S = 3 s."
+          }
+        }
+      }
+    },
+    "If the headphones disappear, switch to the system output (with a message)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Si le casque disparaît, basculer sur la sortie système (avec message)"
+          }
+        }
+      }
+    },
+    "Import…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importer…"
+          }
+        }
+      }
+    },
+    "In OBS, FaceTime, etc., choose “%@” as the microphone.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dans OBS, FaceTime, etc., choisissez « %@ » comme micro."
+          }
+        }
+      }
+    },
+    "In your apps, choose “%@” as the microphone.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dans vos applications, choisissez « %@ » comme microphone."
+          }
+        }
+      }
+    },
+    "Inactive: requires BlackHole, monitoring headphones, and a virtual output other than BlackHole (VoxFlowAir Micro).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inactif : il faut BlackHole, un casque de monitoring, et une sortie virtuelle autre que BlackHole (VoxFlowAir Micro)."
+          }
+        }
+      }
+    },
+    "Include Audio Unit extensions from apps (AUv3)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inclure les extensions Audio Unit des applications (AUv3)"
+          }
+        }
+      }
+    },
+    "Include music effects (aumf)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inclure les effets musicaux (aumf)"
+          }
+        }
+      }
+    },
+    "Input": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrée"
+          }
+        }
+      }
+    },
+    "Input (mic)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrée (micro)"
+          }
+        }
+      }
+    },
+    "Input gain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gain d'entrée"
+          }
+        }
+      }
+    },
+    "Input: ": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrée : "
+          }
+        }
+      }
+    },
+    "Insert Analyzer": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insérer un analyseur"
+          }
+        }
+      }
+    },
+    "Insert Gain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insérer un gain"
+          }
+        }
+      }
+    },
+    "Inside VoxFlowAir": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dans VoxFlowAir"
+          }
+        }
+      }
+    },
+    "Inspector": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inspecteur"
+          }
+        }
+      }
+    },
+    "Install Virtual Output…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installer la sortie virtuelle…"
+          }
+        }
+      }
+    },
+    "Install in Terminal": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installer dans le Terminal"
+          }
+        }
+      }
+    },
+    "Installation script not found in the app. Manual command: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Script d'installation introuvable dans l'application. Commande manuelle : %@"
+          }
+        }
+      }
+    },
+    "Invalid audio format (%lf Hz)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format audio invalide (%lf Hz)"
+          }
+        }
+      }
+    },
+    "Invalid samples": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échantillons invalides"
+          }
+        }
+      }
+    },
+    "Isolated Process": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Processus isolé"
+          }
+        }
+      }
+    },
+    "LUFS loudness (momentary, short-term, integrated), true peak, LRA": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonie LUFS (momentanée, court terme, intégrée), true peak, LRA"
+          }
+        }
+      }
+    },
+    "Lasso selection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sélection au lasso"
+          }
+        }
+      }
+    },
+    "Latency %@ ms": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latence %@ ms"
+          }
+        }
+      }
+    },
+    "Latency (estimate)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latence (estimation)"
+          }
+        }
+      }
+    },
+    "Latency profile": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil de latence"
+          }
+        }
+      }
+    },
+    "Launch at login: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouverture à la connexion : %@"
+          }
+        }
+      }
+    },
+    "Lets you choose VoxFlowAir as the microphone in OBS, FaceTime, Skype…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permet de choisir VoxFlowAir comme micro dans OBS, FaceTime, Skype…"
+          }
+        }
+      }
+    },
+    "Level": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niveau"
+          }
+        }
+      }
+    },
+    "Level and Device…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niveau et périphérique…"
+          }
+        }
+      }
+    },
+    "Level matched: the raw signal is corrected by %@ dB (measured loudness difference) for a fair comparison.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niveau égalisé : le signal brut est corrigé de %@ dB (écart de sonie mesuré) pour une comparaison honnête."
+          }
+        }
+      }
+    },
+    "Level ±60 dB, no latency": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niveau ±60 dB, sans latence"
+          }
+        }
+      }
+    },
+    "Levels": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niveaux"
+          }
+        }
+      }
+    },
+    "Library": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bibliothèque"
+          }
+        }
+      }
+    },
+    "License and uninstallation": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Licence et désinstallation"
+          }
+        }
+      }
+    },
+    "Light": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clair"
+          }
+        }
+      }
+    },
+    "Likely cause: %@ captures app audio. It cuts what VoxFlowAir sends and replays it elsewhere, which also causes an echo in monitoring. Exclude VoxFlowAir in that app (in FineTune: pencil, then the eye next to VoxFlowAir) and restart the engine.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cause probable : %@ capture le son des applications. Il coupe ce que VoxFlowAir envoie et le rejoue ailleurs, ce qui donne aussi un écho dans le monitoring. Excluez VoxFlowAir de cette application (dans FineTune : crayon, puis l'œil à côté de VoxFlowAir) et redémarrez le moteur."
+          }
+        }
+      }
+    },
+    "Listen to the processed signal": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écouter le signal traité"
+          }
+        }
+      }
+    },
+    "Listen to the processed signal on %@. Does not affect the virtual output.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Écoute du signal traité dans %@. N'affecte pas la sortie virtuelle."
+          }
+        }
+      }
+    },
+    "Load": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Charge"
+          }
+        }
+      }
+    },
+    "Load plugins": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chargement des plugins"
+          }
+        }
+      }
+    },
+    "Loading": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chargement"
+          }
+        }
+      }
+    },
+    "Loading plugin…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chargement du plugin…"
+          }
+        }
+      }
+    },
+    "Loading…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chargement…"
+          }
+        }
+      }
+    },
+    "Lock Editing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verrouiller l'édition"
+          }
+        }
+      }
+    },
+    "Lock graph editing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verrouiller l'édition du graphe"
+          }
+        }
+      }
+    },
+    "Log": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Journal"
+          }
+        }
+      }
+    },
+    "Loudness-matched bypass": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bypass à niveau perçu égal"
+          }
+        }
+      }
+    },
+    "Low Latency": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Faible latence"
+          }
+        }
+      }
+    },
+    "MUTE": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MUTE"
+          }
+        }
+      }
+    },
+    "Main gestures": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestes principaux"
+          }
+        }
+      }
+    },
+    "Make a donation with PayPal to support development (opens your browser)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Faire un don avec PayPal pour soutenir le développement (ouvre votre navigateur)"
+          }
+        }
+      }
+    },
+    "Manufacturer": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fabricant"
+          }
+        }
+      }
+    },
+    "Match macOS": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivre macOS"
+          }
+        }
+      }
+    },
+    "Maximum Safety": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sécurité maximale"
+          }
+        }
+      }
+    },
+    "Measurement point: choose it as the source in the analysis panel (Spectrum, Oscilloscope, Loudness).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Point de mesure : choisissez-le comme source dans le panneau d'analyse (Spectre, Oscilloscope, Sonie)."
+          }
+        }
+      }
+    },
+    "Measurement point: spectrum, oscilloscope, LUFS": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Point de mesure : spectre, oscilloscope, LUFS"
+          }
+        }
+      }
+    },
+    "Meter": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instrument"
+          }
+        }
+      }
+    },
+    "Meter Monitors": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moniteurs de mesure"
+          }
+        }
+      }
+    },
+    "Meter plugin connected to this measurement point": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin de mesure branché sur ce point de mesure"
+          }
+        }
+      }
+    },
+    "Microphone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone"
+          }
+        }
+      }
+    },
+    "Microphone / input interface": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Micro / interface d'entrée"
+          }
+        }
+      }
+    },
+    "Microphone access denied": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accès au micro refusé"
+          }
+        }
+      }
+    },
+    "Microphone after input gain, before the chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Micro après gain d'entrée, avant la chaîne"
+          }
+        }
+      }
+    },
+    "Microphone channel not found in the aggregate device": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Canal du micro introuvable dans l'agrégé"
+          }
+        }
+      }
+    },
+    "Microphone input": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrée micro"
+          }
+        }
+      }
+    },
+    "Microphone name in OBS, FaceTime…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom du micro dans OBS, FaceTime…"
+          }
+        }
+      }
+    },
+    "Microphone name in apps": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom du micro dans les applications"
+          }
+        }
+      }
+    },
+    "Missing plugins: %@ (settings kept).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugins absents : %@ (réglages conservés)."
+          }
+        }
+      }
+    },
+    "Monitoring": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monitoring"
+          }
+        }
+      }
+    },
+    "Monitoring (headphones)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monitoring (casque)"
+          }
+        }
+      }
+    },
+    "Monitoring device (headphones)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Périphérique de monitoring (casque)"
+          }
+        }
+      }
+    },
+    "Monitoring level: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niveau du monitoring : %@"
+          }
+        }
+      }
+    },
+    "Monitoring output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie monitoring"
+          }
+        }
+      }
+    },
+    "Monitoring paused: %@ is listening to “%@” and playing on “%@”. Its echo canceller would erase your voice. Monitoring will resume when the call ends.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Monitoring paused: %1$@ is listening to “%2$@” and playing on “%3$@”. Its echo canceller would erase your voice. Monitoring will resume when the call ends."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monitoring suspendu : %1$@ écoute « %2$@ » et joue sur « %3$@ ». Son annulateur d'écho effacerait votre voix. Le monitoring reprendra à la fin de l'appel."
+          }
+        }
+      }
+    },
+    "Mono %lld (dual mono)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mono %lld (double mono)"
+          }
+        }
+      }
+    },
+    "Move": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacer"
+          }
+        }
+      }
+    },
+    "Move %@ down": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descendre %@"
+          }
+        }
+      }
+    },
+    "Move %@ up": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monter %@"
+          }
+        }
+      }
+    },
+    "Move (the sound doesn't change)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacer (le son ne change pas)"
+          }
+        }
+      }
+    },
+    "Move Down in Chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descendre dans la chaîne"
+          }
+        }
+      }
+    },
+    "Move Down in Chain (⌥⌘↓)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descendre dans la chaîne (⌥⌘↓)"
+          }
+        }
+      }
+    },
+    "Move Up in Chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monter dans la chaîne"
+          }
+        }
+      }
+    },
+    "Move Up in Chain (⌥⌘↑)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monter dans la chaîne (⌥⌘↑)"
+          }
+        }
+      }
+    },
+    "Move down (⌥⌘↓)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descendre (⌥⌘↓)"
+          }
+        }
+      }
+    },
+    "Move refused: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacement refusé : %@"
+          }
+        }
+      }
+    },
+    "Move refused: the virtual output is not fed by the input.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacement refusé : la sortie virtuelle n'est pas alimentée par l'entrée."
+          }
+        }
+      }
+    },
+    "Move up (⌥⌘↑)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monter (⌥⌘↑)"
+          }
+        }
+      }
+    },
+    "Move up · down in the chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monter · descendre dans la chaîne"
+          }
+        }
+      }
+    },
+    "Moves the node on the canvas. Position only: the sound and the processing order don't change.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplace le nœud sur le canevas. Position seulement : le son et l'ordre de traitement ne changent pas."
+          }
+        }
+      }
+    },
+    "Moving %lld nodes: the sound doesn't change": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacement de %lld nœuds : le son ne change pas"
+          }
+        }
+      }
+    },
+    "Mute Virtual Output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mute de la sortie virtuelle"
+          }
+        }
+      }
+    },
+    "Mutes the signal sent to apps (virtual output). Monitoring continues.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coupe le signal envoyé aux applications (sortie virtuelle). Le monitoring continue."
+          }
+        }
+      }
+    },
+    "Mutes the virtual output (apps)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coupe la sortie virtuelle (applications)"
+          }
+        }
+      }
+    },
+    "NaN/infinite values produced by a plugin, neutralized.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valeurs NaN/infinies produites par un plugin, neutralisées."
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom"
+          }
+        }
+      }
+    },
+    "Native interface": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interface native"
+          }
+        }
+      }
+    },
+    "Near overruns": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cycles > 90 %"
+          }
+        }
+      }
+    },
+    "New": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau"
+          }
+        }
+      }
+    },
+    "New Preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau preset"
+          }
+        }
+      }
+    },
+    "New Preset…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau preset…"
+          }
+        }
+      }
+    },
+    "New preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau preset"
+          }
+        }
+      }
+    },
+    "Next Preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset suivant"
+          }
+        }
+      }
+    },
+    "Next preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset suivant"
+          }
+        }
+      }
+    },
+    "No Parameters": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun paramètre"
+          }
+        }
+      }
+    },
+    "No Preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun preset"
+          }
+        }
+      }
+    },
+    "No clipping": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun écrêtage"
+          }
+        }
+      }
+    },
+    "No effects on the main chain.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun effet sur la chaîne principale."
+          }
+        }
+      }
+    },
+    "No input device available.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun périphérique d'entrée disponible."
+          }
+        }
+      }
+    },
+    "No meter plugin is installed.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun plugin de mesure n'est installé."
+          }
+        }
+      }
+    },
+    "No microphone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun micro"
+          }
+        }
+      }
+    },
+    "No plugins found.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun plugin trouvé."
+          }
+        }
+      }
+    },
+    "No presets exposed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun préréglage exposé"
+          }
+        }
+      }
+    },
+    "No recently used plugins.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun plugin utilisé récemment."
+          }
+        }
+      }
+    },
+    "No virtual output is installed.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune sortie virtuelle n'est installée."
+          }
+        }
+      }
+    },
+    "No virtual output: OBS, FaceTime and other apps cannot receive VoxFlowAir yet.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune sortie virtuelle : OBS, FaceTime et les autres applications ne peuvent pas encore recevoir VoxFlowAir."
+          }
+        }
+      }
+    },
+    "No virtual output: the processed signal is not sent to any app. Install “VoxFlowAir Micro” or BlackHole (Settings › Virtual Output).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune sortie virtuelle : le signal traité n'est envoyé à aucune application. Installez « VoxFlowAir Micro » ou BlackHole (Réglages › Sortie virtuelle)."
+          }
+        }
+      }
+    },
+    "Nodes": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nœuds"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun"
+          }
+        }
+      }
+    },
+    "Not installed. Optional: BlackHole is still supported.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non installé. Optionnel : BlackHole reste pris en charge."
+          }
+        }
+      }
+    },
+    "Not possible here: the order won't change": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible ici : l'ordre ne changera pas"
+          }
+        }
+      }
+    },
+    "Nothing to paste": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien à coller"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désactivé"
+          }
+        }
+      }
+    },
+    "Official Page": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Page officielle"
+          }
+        }
+      }
+    },
+    "On": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activé"
+          }
+        }
+      }
+    },
+    "Only one monitoring output is allowed.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une seule sortie monitoring est autorisée."
+          }
+        }
+      }
+    },
+    "Only the plugins I choose": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seulement les plugins que je choisis"
+          }
+        }
+      }
+    },
+    "Open": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir"
+          }
+        }
+      }
+    },
+    "Open Components Folder": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir le dossier Components"
+          }
+        }
+      }
+    },
+    "Open Interface": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir l'interface"
+          }
+        }
+      }
+    },
+    "Open VoxFlowAir": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir VoxFlowAir"
+          }
+        }
+      }
+    },
+    "Open VoxFlowAir at login": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir VoxFlowAir à l'ouverture de session"
+          }
+        }
+      }
+    },
+    "Open the plugin interface": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir l'interface du plugin"
+          }
+        }
+      }
+    },
+    "Opening interface…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouverture de l'interface…"
+          }
+        }
+      }
+    },
+    "Orphan connection ignored.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion orpheline ignorée."
+          }
+        }
+      }
+    },
+    "Oscilloscope": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oscilloscope"
+          }
+        }
+      }
+    },
+    "Other": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autre"
+          }
+        }
+      }
+    },
+    "Other Gestures": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autres gestes"
+          }
+        }
+      }
+    },
+    "Output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie"
+          }
+        }
+      }
+    },
+    "Output (processed)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie (traité)"
+          }
+        }
+      }
+    },
+    "Output — drag to another node's input (multiple connections = branches)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie — glisser vers l'entrée d'un autre nœud (plusieurs connexions possibles = branches)"
+          }
+        }
+      }
+    },
+    "Output: ": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie : "
+          }
+        }
+      }
+    },
+    "Overloads": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surcharges"
+          }
+        }
+      }
+    },
+    "Overloads reported by Core Audio (likely audio dropouts).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surcharges signalées par Core Audio (pertes audio probables)."
+          }
+        }
+      }
+    },
+    "PHONES": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CASQUE"
+          }
+        }
+      }
+    },
+    "PROCESSED": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TRAITÉ"
+          }
+        }
+      }
+    },
+    "Pan the view": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacer la vue"
+          }
+        }
+      }
+    },
+    "Paste": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coller"
+          }
+        }
+      }
+    },
+    "Paste the settings of “%@”": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coller les réglages de « %@ »"
+          }
+        }
+      }
+    },
+    "Pause monitoring during a call that plays on these headphones": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suspendre le monitoring pendant un appel qui joue sur ce casque"
+          }
+        }
+      }
+    },
+    "Paused right now: %@ is using VoxFlowAir on these headphones.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suspendu en ce moment : %@ écoute VoxFlowAir sur ce casque."
+          }
+        }
+      }
+    },
+    "Peak and RMS": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crêtes et RMS"
+          }
+        }
+      }
+    },
+    "Peak and average on one scale (Dorrough)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crête et moyenne sur une même échelle (Dorrough)"
+          }
+        }
+      }
+    },
+    "Peak of the signal the plugin actually receives (read at its output)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crête du signal que le plugin reçoit réellement (relevée à sa sortie)"
+          }
+        }
+      }
+    },
+    "Phase": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phase"
+          }
+        }
+      }
+    },
+    "Phase correlation": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Corrélation de phase"
+          }
+        }
+      }
+    },
+    "Pitch and Modulation": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hauteur et modulation"
+          }
+        }
+      }
+    },
+    "Plugin": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin"
+          }
+        }
+      }
+    },
+    "Plugin missing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin absent"
+          }
+        }
+      }
+    },
+    "Plugin not found: “%@”. The node passes the signal through; its settings are kept.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin introuvable : « %@ ». Le nœud laisse passer le signal ; ses réglages sont conservés."
+          }
+        }
+      }
+    },
+    "Plugin not installed: %@ (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Plugin not installed: %1$@ (%2$@)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin non installé : %1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "Plugin preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Préréglage"
+          }
+        }
+      }
+    },
+    "Plugin stopped": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin arrêté"
+          }
+        }
+      }
+    },
+    "Plugins": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugins"
+          }
+        }
+      }
+    },
+    "Position in the main chain (processing order)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Position dans la chaîne principale (ordre de traitement)"
+          }
+        }
+      }
+    },
+    "Preferences were unreadable: default values are used (old file: %@).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Préférences illisibles : valeurs par défaut utilisées (ancien fichier : %@)."
+          }
+        }
+      }
+    },
+    "Preferences were unreadable: the backup copy was used.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Préférences illisibles : copie de sécurité utilisée."
+          }
+        }
+      }
+    },
+    "Preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset"
+          }
+        }
+      }
+    },
+    "Preset format v%lld is newer than this version of VoxFlowAir (v%lld).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Preset format v%1$lld is newer than this version of VoxFlowAir (v%2$lld)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format de preset v%1$lld plus récent que cette version de VoxFlowAir (v%2$lld)."
+          }
+        }
+      }
+    },
+    "Preset moved to the Trash.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset déplacé dans la Corbeille."
+          }
+        }
+      }
+    },
+    "Preset name": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom du preset"
+          }
+        }
+      }
+    },
+    "Preset not found": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset introuvable"
+          }
+        }
+      }
+    },
+    "Preset saved": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset enregistré"
+          }
+        }
+      }
+    },
+    "Preset “%@” imported.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset « %@ » importé."
+          }
+        }
+      }
+    },
+    "Preset “%@” loaded.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset « %@ » chargé."
+          }
+        }
+      }
+    },
+    "Presets": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Presets"
+          }
+        }
+      }
+    },
+    "Presets Folder": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dossier des presets"
+          }
+        }
+      }
+    },
+    "Previous Preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset précédent"
+          }
+        }
+      }
+    },
+    "Previous preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preset précédent"
+          }
+        }
+      }
+    },
+    "Process": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Processus"
+          }
+        }
+      }
+    },
+    "Processing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Traitement actif"
+          }
+        }
+      }
+    },
+    "Processing order": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordre de traitement"
+          }
+        }
+      }
+    },
+    "Protects against accidental edits (⌥⌘L)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protection contre les modifications accidentelles (⌥⌘L)"
+          }
+        }
+      }
+    },
+    "Quick help": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aide rapide"
+          }
+        }
+      }
+    },
+    "Quit VoxFlowAir": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter VoxFlowAir"
+          }
+        }
+      }
+    },
+    "Raw level (not matched).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niveau brut (non égalisé)."
+          }
+        }
+      }
+    },
+    "Re-enable Selection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réactiver la sélection"
+          }
+        }
+      }
+    },
+    "Real-time voice processing for macOS: your microphone, through a chain of Audio Units, to a virtual microphone and your headphones.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Traitement de la voix en temps réel pour macOS : votre micro passe par une chaîne d'Audio Units, puis vers un micro virtuel et votre casque."
+          }
+        }
+      }
+    },
+    "Recently used": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Récemment utilisés"
+          }
+        }
+      }
+    },
+    "Recommended installation: BlackHole 2ch": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installation recommandée : BlackHole 2ch"
+          }
+        }
+      }
+    },
+    "Record 20 s (Raw + Processed)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer 20 s (brut + traité)"
+          }
+        }
+      }
+    },
+    "Recording failed: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrement impossible : %@"
+          }
+        }
+      }
+    },
+    "Recording…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrement…"
+          }
+        }
+      }
+    },
+    "Records the unprocessed microphone and the processed signal at the same time (WAV) to compare by ear.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistre simultanément le micro non traité et le signal traité (WAV) pour comparer à l'écoute."
+          }
+        }
+      }
+    },
+    "Recovering: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Récupération : %@"
+          }
+        }
+      }
+    },
+    "Redo": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rétablir"
+          }
+        }
+      }
+    },
+    "Redo (⇧⌘Z)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rétablir (⇧⌘Z)"
+          }
+        }
+      }
+    },
+    "Refused: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refusé : %@"
+          }
+        }
+      }
+    },
+    "Reinstall": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinstaller"
+          }
+        }
+      }
+    },
+    "Release to insert here": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relâcher pour insérer ici"
+          }
+        }
+      }
+    },
+    "Release to reorder the audio chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relâcher pour réorganiser la chaîne audio"
+          }
+        }
+      }
+    },
+    "Reload": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recharger"
+          }
+        }
+      }
+    },
+    "Reload Plugin": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recharger le plugin"
+          }
+        }
+      }
+    },
+    "Remove from Favorites": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer des favoris"
+          }
+        }
+      }
+    },
+    "Remove from Section": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer de la section"
+          }
+        }
+      }
+    },
+    "Rename Preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renommer le preset"
+          }
+        }
+      }
+    },
+    "Rename…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renommer…"
+          }
+        }
+      }
+    },
+    "Render errors": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erreurs rendu"
+          }
+        }
+      }
+    },
+    "Reorder only (released elsewhere: canceled)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réorganiser seulement (relâché ailleurs : annulé)"
+          }
+        }
+      }
+    },
+    "Reorder the audio chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réorganiser la chaîne audio"
+          }
+        }
+      }
+    },
+    "Reorder the audio chain: drag to a ⊕ connection (released elsewhere, nothing changes)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réorganiser la chaîne audio : glisser jusqu'à une connexion ⊕ (relâché ailleurs, rien ne change)"
+          }
+        }
+      }
+    },
+    "Replace": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remplacer"
+          }
+        }
+      }
+    },
+    "Reported latency": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latence déclarée"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser"
+          }
+        }
+      }
+    },
+    "Reset Counters": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser les compteurs"
+          }
+        }
+      }
+    },
+    "Reset the integrated measurement": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser la mesure intégrée"
+          }
+        }
+      }
+    },
+    "Restart Audio Engine": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redémarrer le moteur audio"
+          }
+        }
+      }
+    },
+    "Restart loop": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redémarrages en boucle"
+          }
+        }
+      }
+    },
+    "Restart the audio engine": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redémarrer le moteur audio"
+          }
+        }
+      }
+    },
+    "Restore": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurer"
+          }
+        }
+      }
+    },
+    "Restore Deleted Factory Presets (%lld)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurer les presets d'origine supprimés (%lld)"
+          }
+        }
+      }
+    },
+    "Restore Original Version…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurer la version d'origine…"
+          }
+        }
+      }
+    },
+    "Restore “%@” to its original version?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurer « %@ » dans sa version d'origine ?"
+          }
+        }
+      }
+    },
+    "Resume Processing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réactiver le traitement"
+          }
+        }
+      }
+    },
+    "Reverb and Time-Based Effects": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réverbération et effets temporels"
+          }
+        }
+      }
+    },
+    "Revert to Saved": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revenir à la version enregistrée"
+          }
+        }
+      }
+    },
+    "Revert to Saved Preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revenir au preset enregistré"
+          }
+        }
+      }
+    },
+    "Running": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actif"
+          }
+        }
+      }
+    },
+    "Safe mode (Option key): plugins are not loaded.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode sans échec (touche Option) : les plugins ne sont pas chargés."
+          }
+        }
+      }
+    },
+    "Same as microphone (%lld Hz)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Celle du micro (%lld Hz)"
+          }
+        }
+      }
+    },
+    "Sample rate": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fréquence d'échantillonnage"
+          }
+        }
+      }
+    },
+    "Sample rate %lld Hz rejected by the device: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Sample rate %1$lld Hz rejected by the device: %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fréquence %1$lld Hz refusée par le périphérique : %2$@"
+          }
+        }
+      }
+    },
+    "Saturation": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saturation"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer"
+          }
+        }
+      }
+    },
+    "Save As": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer sous"
+          }
+        }
+      }
+    },
+    "Save As…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer sous…"
+          }
+        }
+      }
+    },
+    "Save Preset": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer le preset"
+          }
+        }
+      }
+    },
+    "Save preset (⌘S)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer le preset (⌘S)"
+          }
+        }
+      }
+    },
+    "Save “%@” (⌘S)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer « %@ » (⌘S)"
+          }
+        }
+      }
+    },
+    "Saved with the preset. BlackHole keeps the name set by its driver.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistré avec le preset. BlackHole garde le nom fixé par son pilote."
+          }
+        }
+      }
+    },
+    "Scan Again": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher à nouveau"
+          }
+        }
+      }
+    },
+    "Scan again for installed plugins": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher à nouveau les plugins installés"
+          }
+        }
+      }
+    },
+    "Script %@ not found in the app.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Script %@ introuvable dans l'application."
+          }
+        }
+      }
+    },
+    "Search by name or manufacturer": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher par nom ou fabricant"
+          }
+        }
+      }
+    },
+    "Search parameters": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher un paramètre"
+          }
+        }
+      }
+    },
+    "Search plugins": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher un plugin"
+          }
+        }
+      }
+    },
+    "Section": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Section"
+          }
+        }
+      }
+    },
+    "Section active / bypassed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Section active / contournée"
+          }
+        }
+      }
+    },
+    "Section bypassed — click to enable": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Section contournée — cliquer pour réactiver"
+          }
+        }
+      }
+    },
+    "Section name": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom de la section"
+          }
+        }
+      }
+    },
+    "Select · add to selection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sélectionner · ajouter à la sélection"
+          }
+        }
+      }
+    },
+    "Selected headphones unavailable: monitoring paused (automatic fallback is turned off in Settings).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Casque choisi indisponible : monitoring suspendu (basculement automatique désactivé dans les réglages)."
+          }
+        }
+      }
+    },
+    "Selected headphones unavailable: monitoring switched to “%@”. It will switch back automatically when the device is reconnected.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Casque choisi indisponible : monitoring basculé sur « %@ ». Il reviendra automatiquement quand le périphérique sera rebranché."
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages"
+          }
+        }
+      }
+    },
+    "Settings (⌘,)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages (⌘,)"
+          }
+        }
+      }
+    },
+    "Share of the available time per audio cycle used by VoxFlowAir (recent maximum).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part du temps disponible par cycle audio utilisée par VoxFlowAir (maximum récent)."
+          }
+        }
+      }
+    },
+    "Show": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher"
+          }
+        }
+      }
+    },
+    "Show Full Interface": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher l'interface complète"
+          }
+        }
+      }
+    },
+    "Show Inspector": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher l'inspecteur"
+          }
+        }
+      }
+    },
+    "Show Logs": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher les journaux"
+          }
+        }
+      }
+    },
+    "Show Meter Monitors": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher les moniteurs de mesure"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher dans le Finder"
+          }
+        }
+      }
+    },
+    "Show input and output meter monitors (⌘2)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher les moniteurs de mesure d'entrée et de sortie (⌘2)"
+          }
+        }
+      }
+    },
+    "Show inspector (⌥⌘I)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher l'inspecteur (⌥⌘I)"
+          }
+        }
+      }
+    },
+    "Show multichannel variants (5.1, 7.1, Ambisonics…)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher les variantes multicanal (5.1, 7.1, Ambisonics…)"
+          }
+        }
+      }
+    },
+    "Show the main window at launch": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher la fenêtre principale au lancement"
+          }
+        }
+      }
+    },
+    "Signal gap: approximate measurement": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lecture interrompue : mesure approchée"
+          }
+        }
+      }
+    },
+    "Signal read back from the virtual output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signal relu sur la sortie virtuelle"
+          }
+        }
+      }
+    },
+    "Source": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source"
+          }
+        }
+      }
+    },
+    "Source Code": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code source"
+          }
+        }
+      }
+    },
+    "Space + drag · scroll wheel": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espace + glisser · molette"
+          }
+        }
+      }
+    },
+    "Spectrum": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spectre"
+          }
+        }
+      }
+    },
+    "Stable": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stable"
+          }
+        }
+      }
+    },
+    "Start Engine": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer le moteur"
+          }
+        }
+      }
+    },
+    "Start the engine to record.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrez le moteur pour enregistrer."
+          }
+        }
+      }
+    },
+    "Starting the IOProc": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrage de l'IOProc"
+          }
+        }
+      }
+    },
+    "Starting virtual output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrage de la sortie virtuelle"
+          }
+        }
+      }
+    },
+    "Starting…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrage…"
+          }
+        }
+      }
+    },
+    "State A of “%@” stored: change the plugin, then click “A ⇄ B” to compare.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "État A de « %@ » mémorisé : modifiez le plugin, puis « A ⇄ B » pour comparer."
+          }
+        }
+      }
+    },
+    "Status": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "État"
+          }
+        }
+      }
+    },
+    "Stereo %lld-%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Stereo %1$lld-%2$lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stéréo %1$lld-%2$lld"
+          }
+        }
+      }
+    },
+    "Stereo 1-2": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stéréo 1-2"
+          }
+        }
+      }
+    },
+    "Stereo image and phase": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Image stéréo et phase"
+          }
+        }
+      }
+    },
+    "Stop Engine": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter le moteur"
+          }
+        }
+      }
+    },
+    "Stopped": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêté"
+          }
+        }
+      }
+    },
+    "Stores the current state (A). Change the plugin, then click again to switch between A and B.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mémorise l'état actuel (A). Modifiez le plugin puis recliquez pour basculer entre A et B."
+          }
+        }
+      }
+    },
+    "Support VoxFlowAir": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Soutenir VoxFlowAir"
+          }
+        }
+      }
+    },
+    "Switch between the two states": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basculer entre les deux états"
+          }
+        }
+      }
+    },
+    "System Default Output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie système par défaut"
+          }
+        }
+      }
+    },
+    "System default output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie système par défaut"
+          }
+        }
+      }
+    },
+    "System output (%@)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie système (%@)"
+          }
+        }
+      }
+    },
+    "The VoxFlowAir driver rejected the name “%@”.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le pilote VoxFlowAir a refusé le nom « %@ »."
+          }
+        }
+      }
+    },
+    "The current chain will replace this preset. Its original version can still be restored (preset menu › Restore Original Version).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La chaîne actuelle remplacera ce preset. Sa version d'origine reste restaurable (menu des presets › Restaurer la version d'origine)."
+          }
+        }
+      }
+    },
+    "The current chain will replace this preset. The old version stays in the backup file (.bak).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La chaîne actuelle remplacera ce preset. L'ancienne version reste dans le fichier de sauvegarde (.bak)."
+          }
+        }
+      }
+    },
+    "The current preset has unsaved changes. Save them before switching presets?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le preset actuel contient des modifications. Les enregistrer avant de changer de preset ?"
+          }
+        }
+      }
+    },
+    "The driver is copied to /Library/Audio/Plug-Ins/HAL (macOS asks for an administrator password), then the audio service restarts: the Mac’s sound cuts out for a few seconds. No macOS protection is changed. Local signature only (not notarized): for use on this Mac.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le pilote est copié dans /Library/Audio/Plug-Ins/HAL (mot de passe administrateur demandé par macOS), puis le service audio redémarre : le son du Mac est coupé quelques secondes. Aucune protection de macOS n'est modifiée. Signature locale uniquement (pas de notarisation) : usage sur ce Mac."
+          }
+        }
+      }
+    },
+    "The engine had to restart more than 5 times in 30 s (%@). It has been stopped to protect your audio: check your devices, then start it again.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le moteur a dû redémarrer plus de 5 fois en 30 s (%@). Il est arrêté pour protéger votre audio : vérifiez les périphériques puis relancez-le."
+          }
+        }
+      }
+    },
+    "The graph contains a loop: the engine does not support feedback.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le graphe contient une boucle : le moteur ne prend pas en charge la rétroaction."
+          }
+        }
+      }
+    },
+    "The graph must contain exactly one input (currently %lld).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le graphe doit contenir exactement une entrée (actuellement %lld)."
+          }
+        }
+      }
+    },
+    "The graph must contain exactly one virtual output (currently %lld).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le graphe doit contenir exactement une sortie virtuelle (actuellement %lld)."
+          }
+        }
+      }
+    },
+    "The headphones play the signal arriving at this node instead of the virtual output. This node is not sent to apps.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le casque écoute le signal qui arrive sur ce nœud, au lieu de la sortie virtuelle. Ce nœud n'est pas envoyé aux applications."
+          }
+        }
+      }
+    },
+    "The headphones play this point of the chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le casque écoute ce point de la chaîne"
+          }
+        }
+      }
+    },
+    "The input and outputs have a fixed place in the chain.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'entrée et les sorties ont une place fixe dans la chaîne."
+          }
+        }
+      }
+    },
+    "The input and the virtual output cannot be deleted.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'entrée et la sortie virtuelle ne peuvent pas être supprimées."
+          }
+        }
+      }
+    },
+    "The last VoxFlowAir session did not end normally. If a plugin is to blame, relaunch VoxFlowAir while holding Option (safe mode) or switch that plugin to “Isolated Process”.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La dernière session de VoxFlowAir ne s'est pas terminée normalement. Si un plugin est en cause, relancez VoxFlowAir en maintenant Option (mode sans échec) ou passez-le en « Processus isolé »."
+          }
+        }
+      }
+    },
+    "The monitoring level is independent of the virtual output.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le niveau du monitoring est indépendant de la sortie virtuelle."
+          }
+        }
+      }
+    },
+    "The name cannot be empty.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le nom ne peut pas être vide."
+          }
+        }
+      }
+    },
+    "The name “BlackHole 2ch” is set by the BlackHole driver: VoxFlowAir cannot change it. For a custom name, choose “%@”.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le nom « BlackHole 2ch » est fixé par le pilote BlackHole : VoxFlowAir ne peut pas le modifier. Pour un nom personnalisé, choisissez « %@ »."
+          }
+        }
+      }
+    },
+    "The node is already at this place in the chain.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le nœud est déjà à cet endroit de la chaîne."
+          }
+        }
+      }
+    },
+    "The plugin exposes no automatable parameters.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le plugin n'expose aucun paramètre automatisable."
+          }
+        }
+      }
+    },
+    "The plugin has no audio input or no audio output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plugin sans entrée ou sans sortie audio"
+          }
+        }
+      }
+    },
+    "The plugin “%@” stopped. It is bypassed; its saved settings are kept. Use “Reload” on the node.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le plugin « %@ » s'est arrêté. Il est contourné ; ses réglages enregistrés sont conservés. Utilisez « Recharger » sur le nœud."
+          }
+        }
+      }
+    },
+    "The preset file will be moved to the Trash (recoverable).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le fichier du preset sera placé dans la Corbeille (récupérable)."
+          }
+        }
+      }
+    },
+    "The saved settings of “%@” could not be restored. They are still kept in the preset.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les réglages enregistrés de « %@ » n'ont pas pu être restaurés. Ils restent conservés dans le preset."
+          }
+        }
+      }
+    },
+    "The selected microphone is VoxFlowAir's own virtual output (audio loop): using the default microphone instead.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le micro choisi est la sortie virtuelle de VoxFlowAir elle-même (boucle audio) : micro par défaut utilisé à la place."
+          }
+        }
+      }
+    },
+    "The virtual output does not return the signal sent: apps (OBS, FaceTime…) may receive nothing.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sortie virtuelle ne renvoie pas le signal envoyé : les applications (OBS, FaceTime…) risquent de ne rien recevoir."
+          }
+        }
+      }
+    },
+    "The virtual output is not connected to anything: apps will receive silence.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sortie virtuelle n'est reliée à rien : les applications recevront du silence."
+          }
+        }
+      }
+    },
+    "The virtual output is not fed by the input.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sortie virtuelle n'est pas alimentée par l'entrée."
+          }
+        }
+      }
+    },
+    "The virtual output is not fed by the microphone input.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La sortie virtuelle n'est pas alimentée par l'entrée micro."
+          }
+        }
+      }
+    },
+    "There can be only one “%@” node.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il ne peut y avoir qu'un seul nœud « %@ »."
+          }
+        }
+      }
+    },
+    "These ports cannot be connected.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion impossible entre ces ports."
+          }
+        }
+      }
+    },
+    "This build of VoxFlowAir does not include the driver (build the VoxFlowAirDriver target).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette version de VoxFlowAir n'embarque pas le pilote (compilez la cible VoxFlowAirDriver)."
+          }
+        }
+      }
+    },
+    "This connection already exists.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette connexion existe déjà."
+          }
+        }
+      }
+    },
+    "This connection would create a loop (not supported).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette connexion créerait une boucle (non prise en charge)."
+          }
+        }
+      }
+    },
+    "This node cannot be inserted on a connection (it lacks an input or an output).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce nœud ne peut pas être inséré sur une connexion (il lui manque une entrée ou une sortie)."
+          }
+        }
+      }
+    },
+    "This node is not on a linear section (branch or partial connection): move its connections by hand.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce nœud n'est pas sur une portion linéaire (branche ou connexion partielle) : déplacez ses connexions à la main."
+          }
+        }
+      }
+    },
+    "This operation would create a loop: refused.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette opération créerait une boucle : refusée."
+          }
+        }
+      }
+    },
+    "This plugin exposes no automatable parameters: use its interface.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce plugin n'expose pas de paramètres automatisables : utilisez son interface."
+          }
+        }
+      }
+    },
+    "This plugin has no usable graphical interface; showing its exposed parameters.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce plugin ne fournit pas d'interface graphique exploitable : paramètres exposés."
+          }
+        }
+      }
+    },
+    "This plugin is not installed on this Mac. The node passes the signal through; its settings are kept in the preset and will be restored when the plugin is available again.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce plugin n'est pas installé sur ce Mac. Le nœud laisse passer le signal ; ses réglages sont conservés dans le preset et seront restaurés quand le plugin sera de nouveau disponible."
+          }
+        }
+      }
+    },
+    "This preset is already identical to its original version.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce preset est déjà identique à sa version d'origine."
+          }
+        }
+      }
+    },
+    "To hear yourself during the call, choose “%@” as the speaker in the app: VoxFlowAir will play the other party in your headphones.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour vous entendre pendant l'appel, choisissez « %@ » comme haut-parleur dans l'application : VoxFlowAir vous fera entendre votre correspondant dans le casque."
+          }
+        }
+      }
+    },
+    "To use it, choose “%@ (VoxFlowAir driver)” as the virtual output in Settings › Audio.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour l'utiliser, choisissez « %@ (pilote VoxFlowAir) » comme sortie virtuelle dans Réglages › Audio."
+          }
+        }
+      }
+    },
+    "Turn Monitoring Off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couper le monitoring"
+          }
+        }
+      }
+    },
+    "Turn Monitoring On": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer le monitoring"
+          }
+        }
+      }
+    },
+    "Turn VoxFlowAir on or off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer / désactiver VoxFlowAir"
+          }
+        }
+      }
+    },
+    "Turn monitoring on / off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer / couper le monitoring"
+          }
+        }
+      }
+    },
+    "Ultra-Low Latency": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Très faible latence"
+          }
+        }
+      }
+    },
+    "Undo": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        }
+      }
+    },
+    "Undo (⌘Z)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler (⌘Z)"
+          }
+        }
+      }
+    },
+    "Ungroup Section": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dissoudre la section"
+          }
+        }
+      }
+    },
+    "Ungroup section": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dissoudre la section"
+          }
+        }
+      }
+    },
+    "Uninstall…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désinstaller…"
+          }
+        }
+      }
+    },
+    "Unknown connection.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion inconnue."
+          }
+        }
+      }
+    },
+    "Unknown node.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nœud inconnu."
+          }
+        }
+      }
+    },
+    "Unlock Editing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déverrouiller l'édition"
+          }
+        }
+      }
+    },
+    "Unmute Virtual Output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rétablir la sortie virtuelle"
+          }
+        }
+      }
+    },
+    "Unprocessed signal": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signal non traité"
+          }
+        }
+      }
+    },
+    "Unsaved changes": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifications non enregistrées"
+          }
+        }
+      }
+    },
+    "Unsaved changes from the last session were restored.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifications non enregistrées de la dernière session restaurées."
+          }
+        }
+      }
+    },
+    "Unsupported stream format (%lld channels, not Float32)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format de flux non pris en charge (%lld canaux, non Float32)"
+          }
+        }
+      }
+    },
+    "Unsupported virtual output format": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format de la sortie virtuelle non pris en charge"
+          }
+        }
+      }
+    },
+    "Utilities": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utilitaires"
+          }
+        }
+      }
+    },
+    "VIRTUAL": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VIRTUELLE"
+          }
+        }
+      }
+    },
+    "VU and PPM meter bridge": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pont de VU-mètres et PPM"
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        }
+      }
+    },
+    "Version %@ (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Version %1$@ (%2$@)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version %1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "View": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vue"
+          }
+        }
+      }
+    },
+    "Virtual": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Virtuel"
+          }
+        }
+      }
+    },
+    "Virtual Output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle"
+          }
+        }
+      }
+    },
+    "Virtual microphone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone virtuel"
+          }
+        }
+      }
+    },
+    "Virtual microphone renamed “%@”.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Micro virtuel renommé « %@ »."
+          }
+        }
+      }
+    },
+    "Virtual output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle"
+          }
+        }
+      }
+    },
+    "Virtual output IOProc": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IOProc de la sortie virtuelle"
+          }
+        }
+      }
+    },
+    "Virtual output missing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle absente"
+          }
+        }
+      }
+    },
+    "Virtual output unavailable": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle indisponible"
+          }
+        }
+      }
+    },
+    "Virtual output verified: signal read back as OBS would read it (difference %@ dB, measured delay %@ ms)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Virtual output verified: signal read back as OBS would read it (difference %1$@ dB, measured delay %2$@ ms)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle vérifiée : signal relu comme par OBS (écart %1$@ dB, décalage mesuré %2$@ ms)"
+          }
+        }
+      }
+    },
+    "Virtual output: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle : %@"
+          }
+        }
+      }
+    },
+    "Virtual output: no return": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle : aucun retour"
+          }
+        }
+      }
+    },
+    "Virtual output: signal sent but not read back": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle : signal envoyé mais non relu"
+          }
+        }
+      }
+    },
+    "Virtual output: verification unavailable": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle : vérification impossible"
+          }
+        }
+      }
+    },
+    "Virtual output: waiting for signal": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortie virtuelle : en attente de signal"
+          }
+        }
+      }
+    },
+    "Visual move only": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacement visuel seulement"
+          }
+        }
+      }
+    },
+    "Visual move: the sound doesn't change": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacement visuel : le son ne change pas"
+          }
+        }
+      }
+    },
+    "Voice and Noise Reduction": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voix et réduction de bruit"
+          }
+        }
+      }
+    },
+    "VoxFlowAir": {
+      "shouldTranslate": false
+    },
+    "VoxFlowAir Main Window": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fenêtre principale VoxFlowAir"
+          }
+        }
+      }
+    },
+    "VoxFlowAir Virtual Microphone": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Micro virtuel VoxFlowAir"
+          }
+        }
+      }
+    },
+    "VoxFlowAir does not have access to the microphone. Allow it in System Settings › Privacy & Security › Microphone, then restart the engine.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoxFlowAir n'a pas accès au micro. Autorisez-le dans Réglages Système › Confidentialité et sécurité › Microphone, puis relancez le moteur."
+          }
+        }
+      }
+    },
+    "VoxFlowAir driver %@ is installed but not yet loaded by macOS. Restart the Mac or run the installation again.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilote VoxFlowAir %@ installé mais pas encore chargé par macOS. Redémarrez le Mac ou relancez l'installation."
+          }
+        }
+      }
+    },
+    "VoxFlowAir is feeding it. In OBS, FaceTime… choose the “%@” microphone.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoxFlowAir l'alimente. Dans OBS, FaceTime… choisissez le micro « %@ »."
+          }
+        }
+      }
+    },
+    "VoxFlowAir is free. If it is useful to you, a donation helps keep it going.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoxFlowAir est gratuit. S'il vous est utile, un don aide à le faire vivre."
+          }
+        }
+      }
+    },
+    "VoxFlowAir native": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Natif VoxFlowAir"
+          }
+        }
+      }
+    },
+    "VoxFlowAir native effects": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effets natifs VoxFlowAir"
+          }
+        }
+      }
+    },
+    "VoxFlowAir native node · %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nœud natif VoxFlowAir · %@"
+          }
+        }
+      }
+    },
+    "VoxFlowAir native nodes": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nœuds VoxFlowAir natifs"
+          }
+        }
+      }
+    },
+    "Warnings": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avertissements"
+          }
+        }
+      }
+    },
+    "While dragging, every connection the node can go to shows a ⊕ marker. Dropped on one, the node changes place in the processing: a preview of the new order appears before you release. ⌘Z undoes.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pendant le glisser, chaque connexion où le nœud peut aller affiche un repère ⊕. Déposé dessus, le nœud change de place dans le traitement : l'aperçu du nouvel ordre s'affiche avant de relâcher. ⌘Z annule."
+          }
+        }
+      }
+    },
+    "Without Homebrew: download “BlackHole 2ch” from the official page and open the .pkg. Both methods install the same signed and notarized driver in /Library/Audio/Plug-Ins/HAL.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sans Homebrew : téléchargez « BlackHole 2ch » depuis la page officielle et ouvrez le .pkg. Les deux méthodes installent le même pilote signé et notarisé dans /Library/Audio/Plug-Ins/HAL."
+          }
+        }
+      }
+    },
+    "Your changes to this preset will be replaced by the version shipped with VoxFlowAir. The replaced version stays in the backup file (.bak).": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vos modifications de ce preset seront remplacées par la version livrée avec VoxFlowAir. La version remplacée reste dans le fichier de sauvegarde (.bak)."
+          }
+        }
+      }
+    },
+    "Zoom In": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom avant"
+          }
+        }
+      }
+    },
+    "Zoom Out": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom arrière"
+          }
+        }
+      }
+    },
+    "Zoom in (⌘+)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom avant (⌘+)"
+          }
+        }
+      }
+    },
+    "Zoom out (⌘-)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom arrière (⌘-)"
+          }
+        }
+      }
+    },
+    "Zoom to 100%": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom 100 %"
+          }
+        }
+      }
+    },
+    "Zoom to Fit": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout afficher"
+          }
+        }
+      }
+    },
+    "Zoom to fit (⌘0)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout afficher (⌘0)"
+          }
+        }
+      }
+    },
+    "Zoom · zoom to fit": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom · tout afficher"
+          }
+        }
+      }
+    },
+    "analyzer": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "analyseur"
+          }
+        }
+      }
+    },
+    "audio interrupted": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "flux interrompu"
+          }
+        }
+      }
+    },
+    "automatic": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "automatique"
+          }
+        }
+      }
+    },
+    "auval validation": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Validation auval"
+          }
+        }
+      }
+    },
+    "buffer size changed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "buffer modifié"
+          }
+        }
+      }
+    },
+    "bypassed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "contournée"
+          }
+        }
+      }
+    },
+    "call return": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "retour d'appel"
+          }
+        }
+      }
+    },
+    "connection": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "connexion"
+          }
+        }
+      }
+    },
+    "device available": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "périphérique disponible"
+          }
+        }
+      }
+    },
+    "device composition changed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "composition du périphérique modifiée"
+          }
+        }
+      }
+    },
+    "device disconnected": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "périphérique déconnecté"
+          }
+        }
+      }
+    },
+    "device unavailable": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "périphérique indisponible"
+          }
+        }
+      }
+    },
+    "in app": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dans l'app"
+          }
+        }
+      }
+    },
+    "incompatible format": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "format incompatible"
+          }
+        }
+      }
+    },
+    "input": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entrée"
+          }
+        }
+      }
+    },
+    "input changed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "entrée modifiée"
+          }
+        }
+      }
+    },
+    "input channels changed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "canaux d'entrée modifiés"
+          }
+        }
+      }
+    },
+    "inside VoxFlowAir": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dans VoxFlowAir"
+          }
+        }
+      }
+    },
+    "isolated": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "isolé"
+          }
+        }
+      }
+    },
+    "isolated (AUHostingService)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "isolé (AUHostingService)"
+          }
+        }
+      }
+    },
+    "macOS asks for your approval in System Settings › Login Items.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS demande votre validation dans Réglages Système › Ouverture."
+          }
+        }
+      }
+    },
+    "macOS registers Audio Units installed in /Library/Audio/Plug-Ins/Components or ~/Library/Audio/Plug-Ins/Components, and Audio Unit extensions inside apps. To add a plugin, install it with its installer or copy its .component bundle into one of these folders, then click Scan Again. VoxFlowAir does not bypass licensing: a plugin that is not activated behaves as in any other host.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS recense les Audio Units installées dans /Library/Audio/Plug-Ins/Components ou ~/Library/Audio/Plug-Ins/Components, ainsi que les extensions Audio Unit des applications. Pour ajouter un plugin, installez-le avec son installateur ou copiez son paquet .component dans l'un de ces dossiers, puis cliquez sur Rechercher à nouveau. VoxFlowAir ne contourne aucune licence : un plugin non activé se comporte comme dans n'importe quel autre hôte."
+          }
+        }
+      }
+    },
+    "monitoring changed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "monitoring modifié"
+          }
+        }
+      }
+    },
+    "mono ch%lld": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mono ch%lld"
+          }
+        }
+      }
+    },
+    "no": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "non"
+          }
+        }
+      }
+    },
+    "no output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aucune sortie"
+          }
+        }
+      }
+    },
+    "no return": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aucun retour"
+          }
+        }
+      }
+    },
+    "no signal": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pas de signal"
+          }
+        }
+      }
+    },
+    "no virtual output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aucune sortie virtuelle"
+          }
+        }
+      }
+    },
+    "none": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aucun"
+          }
+        }
+      }
+    },
+    "not declared": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "non déclaré"
+          }
+        }
+      }
+    },
+    "not in the main chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hors de la chaîne principale"
+          }
+        }
+      }
+    },
+    "not on the active path": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hors chemin actif"
+          }
+        }
+      }
+    },
+    "not validated": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "non validée"
+          }
+        }
+      }
+    },
+    "off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "coupé"
+          }
+        }
+      }
+    },
+    "output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sortie"
+          }
+        }
+      }
+    },
+    "passed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "réussie"
+          }
+        }
+      }
+    },
+    "position %lld in the chain": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "position %lld dans la chaîne"
+          }
+        }
+      }
+    },
+    "preset buffer size": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "buffer du preset"
+          }
+        }
+      }
+    },
+    "preset input channels": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "canaux d'entrée du preset"
+          }
+        }
+      }
+    },
+    "preset virtual output": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sortie virtuelle du preset"
+          }
+        }
+      }
+    },
+    "process %d": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "processus %d"
+          }
+        }
+      }
+    },
+    "safe mode": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mode sans échec"
+          }
+        }
+      }
+    },
+    "sample rate changed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "fréquence modifiée"
+          }
+        }
+      }
+    },
+    "stereo": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "stéréo"
+          }
+        }
+      }
+    },
+    "the headphones": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "le casque"
+          }
+        }
+      }
+    },
+    "unknown": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "inconnu"
+          }
+        }
+      }
+    },
+    "user request": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "demande utilisateur"
+          }
+        }
+      }
+    },
+    "verified": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "relu"
+          }
+        }
+      }
+    },
+    "verified ✓": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "relu ✓"
+          }
+        }
+      }
+    },
+    "virtual output changed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sortie virtuelle modifiée"
+          }
+        }
+      }
+    },
+    "virtual output check": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vérification de la sortie virtuelle"
+          }
+        }
+      }
+    },
+    "yes": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "oui"
+          }
+        }
+      }
+    },
+    "— bits": {
+      "shouldTranslate": false
+    },
+    "“%@” already exists. Replace it?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » existe déjà. Le remplacer ?"
+          }
+        }
+      }
+    },
+    "“%@” has no input.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » n'a pas d'entrée."
+          }
+        }
+      }
+    },
+    "“%@” has no output.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » n'a pas de sortie."
+          }
+        }
+      }
+    },
+    "“%@” is available (driver %@).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "“%1$@” is available (driver %2$@)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %1$@ » est disponible (pilote %2$@)."
+          }
+        }
+      }
+    },
+    "“%@” is available.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » est disponible."
+          }
+        }
+      }
+    },
+    "“%@” is not loaded: interface unavailable.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » n'est pas chargé : interface indisponible."
+          }
+        }
+      }
+    },
+    "“%@” is not on an active path: it is not processed.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » n'est pas sur un chemin actif : il n'est pas traité."
+          }
+        }
+      }
+    },
+    "“%@” is unreadable and was moved to %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "“%1$@” is unreadable and was moved to %2$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %1$@ » illisible, déplacé dans %2$@."
+          }
+        }
+      }
+    },
+    "“%@” replaced with the current chain.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » remplacé par la chaîne actuelle."
+          }
+        }
+      }
+    },
+    "“%@” restored to its factory version.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » restauré dans sa version d'origine."
+          }
+        }
+      }
+    },
+    "“%@” was unreadable and has been restored from its backup copy.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %@ » illisible, restauré depuis sa copie de sécurité."
+          }
+        }
+      }
+    },
+    "“%@”: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "“%1$@”: %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« %1$@ » : %2$@"
+          }
+        }
+      }
+    },
+    "“Isolated Process”: a plugin crash does not stop VoxFlowAir (the node is bypassed). “Inside VoxFlowAir”: best compatibility.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« Processus isolé » : un plantage du plugin n'arrête pas VoxFlowAir (le nœud est contourné). « Dans VoxFlowAir » : compatibilité maximale."
+          }
+        }
+      }
+    },
+    "“Isolated Process”: the plugin runs in a separate system service (AUHostingService). If it crashes, VoxFlowAir keeps running and bypasses the node. “Inside VoxFlowAir”: best compatibility, but a faulty plugin can quit VoxFlowAir. If a plugin fails to load isolated, VoxFlowAir retries inside its own process.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "« Processus isolé » : le plugin tourne dans un service système séparé (AUHostingService). S'il plante, VoxFlowAir continue et le nœud est contourné. « Dans VoxFlowAir » : compatibilité maximale, mais un plugin défaillant peut fermer VoxFlowAir. En cas d'échec en mode isolé, VoxFlowAir réessaie dans son propre processus."
+          }
+        }
+      }
+    },
+    "•": {
+      "shouldTranslate": false
+    },
+    "• Dragging a node moves it on the canvas without changing the sound.\n• ⌥ + drag a node, or its ≡ handle, to move it within the chain: a marker shows where it will be inserted. ⌘Z undoes.\n• Drag a plugin from the library onto a connection to insert it there; double-click: end of chain.\n• Drag from the output port (right) to another node’s input (left) to create a branch.\n• Double-click a plugin: native interface.\n• ⌫: delete · ⌘D: duplicate · ⌘G: group · B: bypass · ⌥⌘↑ / ⌥⌘↓: move up / down.\n• Drag on the background: select · space + drag or scroll wheel: pan · ⌘ + scroll wheel or pinch: zoom.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "• Glisser un nœud le déplace sur le canevas sans changer le son.\n• ⌥ + glisser un nœud, ou sa poignée ≡, le déplace dans la chaîne : un repère montre où il sera inséré. ⌘Z annule.\n• Glissez un plugin de la bibliothèque sur une connexion pour l'insérer à cet endroit ; double-clic : fin de chaîne.\n• Tirez depuis le port de sortie (droite) vers l'entrée (gauche) d'un autre nœud pour créer une branche.\n• Double-clic sur un plugin : interface native.\n• ⌫ : supprimer · ⌘D : dupliquer · ⌘G : grouper · B : contourner · ⌥⌘↑ / ⌥⌘↓ : monter / descendre.\n• Glisser sur le fond : sélection · espace + glisser ou molette : déplacer la vue · ⌘ + molette ou pincement : zoom."
+          }
+        }
+      }
+    },
+    "⌘ + scroll wheel · pinch · ⌘0": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⌘ + molette · pincer · ⌘0"
+          }
+        }
+      }
+    },
+    "⏻ button · B key": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bouton ⏻ · touche B"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,7 @@
+// Copy to Config/Local.xcconfig (ignored by git) to build with your own identity.
+// Changing VOXFLOWAIR_BUNDLE_ID gives you a separate app, settings and driver that
+// can live next to an official VoxFlowAir install.
+
+// VOXFLOWAIR_BUNDLE_ID = com.example.voxflowair
+// VOXFLOWAIR_DEVELOPMENT_TEAM = ABCDE12345
+// VOXFLOWAIR_CODE_SIGN_IDENTITY = Developer ID Application

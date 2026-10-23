@@ -1,0 +1,42 @@
+name: Plugin compatibility
+description: An Audio Unit does not load, crashes, sounds wrong or shows a blank interface in VoxFlowAir.
+labels: [plugin compatibility]
+body:
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin
+      description: Name, manufacturer and version, as shown in the inspector.
+      placeholder: "Example EQ (s) — Example Audio 2.1.0, AUv2"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Load mode
+      options:
+        - Isolated process
+        - Inside VoxFlowAir
+        - Both fail
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens?
+      description: Does it fail to load, crash, produce silence or distortion, or show no interface? Does it work in another host (Logic Pro, GarageBand, AU Lab)?
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: VoxFlowAir and macOS versions
+      placeholder: "VoxFlowAir 1.0.0, macOS 26.1"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Lines about the plugin from ~/Library/Logs/VoxFlowAir/VoxFlowAir.log, and any AUHostingService crash report from ~/Library/Logs/DiagnosticReports.
+      render: text
